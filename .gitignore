@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# GitBook legacy output (we use modern GitBook git-sync; no local build)
+_book/
+node_modules/
+
+# Logs
+*.log
