@@ -17,33 +17,40 @@ This is **non-custodial in spirit** — your balance is yours, observable on-cha
 
 ## Funding your wallet
 
-### Step 1 — See your address
+Open the Mini App, tap the wallet icon (top-right), then **Deposit**. You'll see a list of **funding paths** — pick whichever matches what you're funding from. Whatever you choose, the money arrives as **USDT on TON** in your personal vault.
 
-Open the Mini App, tap the wallet icon (top-right), then **Deposit**.
-
-You'll see:
-
-* Your TON address (a `UQ…` or `EQ…` string, ~48 characters)
-* A QR code of the same address
-* The asset to send: **USDT (Jetton, TON network)**
-
-{% hint style="warning" %}
-**Send USDT on the TON network only.** Sending USDT on Tron, Ethereum, BSC, or any other network will result in **permanent loss** — those funds cannot be recovered. Always confirm the network reads "TON" before you send.
+{% hint style="info" %}
+The deposit screen only lists the paths that are live for your account and region. During closed beta, some may show a **Coming soon** badge — use any of the available ones meanwhile.
 {% endhint %}
 
-### Step 2 — Send USDT
+### Option 1 — Telegram Wallet (USDT direct on TON)
 
-From any exchange or wallet that supports **USDT on TON**:
+The cheapest path, with **no Fronex fees**. Use this if you already hold USDT on the TON network.
 
-* Set the network to **TON**.
-* Paste your Fronex deposit address.
-* Send. Most TON deposits confirm in 5–30 seconds.
+1. The screen shows your TON address (a `UQ…` or `EQ…` string, ~48 characters) and a QR code of it.
+2. From any exchange or wallet that supports **USDT on TON**, set the network to **TON**, paste your Fronex address, and send.
+3. Most TON deposits confirm in **5–30 seconds**.
 
-Your balance updates as soon as the deposit confirms. If it hasn't appeared after 5 minutes, contact [admin@fronex.xyz](mailto:admin@fronex.xyz) with your TX hash.
+{% hint style="warning" %}
+**This path requires USDT on the TON network only.** Sending USDT on Tron, Ethereum, BSC, or any other network to this address will result in **permanent loss** — those funds cannot be recovered. Always confirm the network reads "TON" before you send. (The other paths below handle network routing for you, so this warning is specific to a direct send.)
+{% endhint %}
+
+### Option 2 — Card / Apple Pay
+
+The fastest way to fund with regular money. Pay with **card, Apple Pay, or bank transfer** and receive USDT in your vault — card processing and delivery are handled by MoonPay. Funds usually land within a few minutes. KYC may apply depending on your jurisdiction.
+
+### Option 3 — Crypto & Bridge
+
+For funding from another coin or another chain. This path has two modes you toggle between:
+
+* **Swap a coin** — send BTC, ETH, SOL, XRP, POL, or USDT (on TRON, Ethereum, Solana, or Polygon). You'll get a temporary deposit address; send the exact amount and it's auto-swapped to USDT-on-TON and forwarded to your vault. Swaps typically settle in **10–30 minutes**. Each source asset has a minimum, shown on screen before you send.
+* **Bridge from Ethereum** — move **USDT-ERC20** (Ethereum) to TON via the official `bridge.ton.org`. Your destination vault is pre-filled. This typically settles in **5–15 minutes**, depending on Ethereum confirmations. Fronex never custodies funds during transit.
+
+Your balance updates as soon as a deposit confirms. If it hasn't appeared after the expected window, contact [admin@fronex.xyz](mailto:admin@fronex.xyz) with your transaction hash.
 
 ### Minimum deposit
 
-There's no enforced minimum, but TON network fees on USDT transfers are ~0.05–0.10 TON per transaction. We recommend depositing at least **5 USDT** for your first deposit so the network fee is small relative to the amount.
+There's no enforced minimum for a direct TON send, but TON network fees on USDT transfers are ~0.05–0.10 TON per transaction. We recommend depositing at least **5 USDT** for your first deposit so the network fee is small relative to the amount. For swaps, the per-asset minimum shown in the app applies instead (it varies by source coin and network).
 
 ## Withdrawing
 

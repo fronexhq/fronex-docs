@@ -30,17 +30,27 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with your Telegram handle, tim
 
 ## Funding
 
-### What asset do I deposit?
+### How can I fund my account?
 
-**USDT on the TON network only.** Sending USDT on any other network (Tron, Ethereum, BSC, etc.) results in permanent loss. Always confirm "TON" before you send.
+Markets settle in **USDT on TON**, and that's what ends up in your vault — but you don't have to already hold it. The Deposit screen offers several funding paths:
+
+* **Telegram Wallet** — send USDT you already hold on TON. No Fronex fees.
+* **Card / Apple Pay** — buy USDT with regular money via MoonPay.
+* **Crypto & Bridge** — swap from BTC, ETH, SOL, XRP, POL, or USDT on another chain, or bridge USDT from Ethereum.
+
+See [Your wallet](your-wallet.md) for the full walkthrough.
+
+{% hint style="warning" %}
+If you send USDT **directly** to your TON address, it must be on the **TON network**. USDT sent to that address on Tron, Ethereum, BSC, or any other network is permanently lost. The card and crypto-swap paths handle network routing for you, so this only applies to a direct send.
+{% endhint %}
 
 ### Is there a minimum deposit?
 
-No enforced minimum, but TON network fees are small, so we recommend at least 5 USDT for your first deposit.
+No enforced minimum for a direct TON send, but TON network fees are small, so we recommend at least 5 USDT for your first deposit. Crypto swaps have a per-asset minimum that's shown in the app before you send.
 
 ### How long do deposits take?
 
-5–30 seconds for the on-chain confirmation. Your Fronex balance updates immediately after that.
+A direct TON send confirms in 5–30 seconds. Card payments land within a few minutes; crypto swaps take ~10–30 minutes and an Ethereum bridge ~5–15 minutes. Your Fronex balance updates as soon as the deposit confirms.
 
 ### Can I deposit TON instead of USDT?
 
