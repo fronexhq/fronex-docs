@@ -4,7 +4,7 @@ description: Host-city weather, hurricane season, and live climate markets tied 
 
 # Climate markets
 
-About 5% of platform volume. Climate is the smallest of the data-driven pillars but it's tightly themed to the FIFA World Cup 2026 — every market is tied to either a host city or the 2026 Atlantic hurricane season.
+Climate is the smallest of the data-driven pillars, but it's tightly themed to the FIFA World Cup 2026 — every market is tied to either a host city or the 2026 Atlantic hurricane season.
 
 ## Market types
 
@@ -52,6 +52,6 @@ Two reasons climate earns its own pillar instead of folding into "other":
 1. **Tournament-relevant**: Heat in Mexico City, rain in Toronto, hurricane risk in the Gulf — these all materially affect matches. Predicting climate alongside the match is a natural cross-pillar move.
 2. **Public, free oracle data**: Open-Meteo and NOAA give us the same data professional meteorologists use, with no API costs. That keeps climate markets cheap to run and easy to verify.
 
-## Pillar accent color
+## In the app
 
-Climate markets use **emerald** (`#10B981`) for the Called-It state.
+Climate markets show up in **teal-green**.

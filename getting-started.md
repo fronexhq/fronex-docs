@@ -39,7 +39,7 @@ We block account creation, deposits, trading, and withdrawals from:
 
 Everywhere else — including the United States, Canada, and Mexico (FIFA World Cup 2026 host countries) — Fronex is accessible.
 
-Geo-blocked users see HTTP 451 at login and cannot proceed.
+Blocked users can't open the app or sign in.
 
 ## What you need before you start
 

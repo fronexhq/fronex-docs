@@ -14,7 +14,7 @@ Fronex tracks five crypto assets at launch:
 * **XRP** — Ripple
 * **TON** — Toncoin (the asset our chain runs on)
 
-About 15% of platform volume runs through crypto.
+Crypto is one of Fronex's most active pillars.
 
 ## Market types
 
@@ -67,17 +67,17 @@ The result: a 90-minute soccer match generates ~3 short, sharp crypto markets yo
 
 ## Resolution
 
-* **Primary oracle**: Binance (REST `/api/v3/ticker/price`)
-* **Secondary oracle**: CoinGecko (sanity check)
-* **Tertiary fallback**: Pyth (used if Binance returns an error and CoinGecko disagrees)
+* **Primary source**: Binance
+* **Secondary check**: CoinGecko
+* **Backup**: Pyth (used only if Binance is unavailable and CoinGecko disagrees)
 
-If the primary and secondary diverge by more than 0.5%, the market goes into pending and resolves manually within 24 hours.
+If the primary and secondary prices disagree by more than a small margin, the market pauses and we settle it manually within 24 hours.
 
-Snapshot timing for match-window markets: the price is captured **within 60 seconds of full-time** as reported by API-Football. Both the Binance and CoinGecko readings, plus the divergence in basis points, are stored in `market_resolutions.oracle_proof` for audit.
+For match-window markets, the price is captured **within 60 seconds of full-time**. We keep both the Binance and CoinGecko readings on record so any settlement can be checked later.
 
-## Pillar accent color
+## In the app
 
-Crypto markets use **orange** (`#F97316`) for the Called-It state. The pillar's icon is a stylized coin glyph from the Fronex sticker set.
+Crypto markets show up in **orange**.
 
 ## What you'll never see in crypto markets
 

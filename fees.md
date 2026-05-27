@@ -63,7 +63,7 @@ Payouts settle to your Fronex wallet as USDT (TON network). From there, you can 
 
 ## What about the platform's wallet?
 
-Fronex uses **sharded admin signing wallets** for the platform's operational settlements — N independent wallets, one for every ~100 users, each encrypted with a single master key. This is an internal architecture detail; users don't interact with platform wallets directly. **You hold your funds in your own personal vault** ([Your wallet](your-wallet.md)).
+Your funds live in **your own personal vault** ([Your wallet](your-wallet.md)) — never in a shared platform pool. Fronex keeps its own separate operating wallets to pay out settlements quickly, but those never hold your balance and you never touch them.
 
 ## Refunds
 

@@ -13,19 +13,19 @@ Fronex blocks four jurisdictions at the platform level:
 * **North Korea** 🇰🇵
 * **Cuba** 🇨🇺
 
-If you're in one of these countries (detected via IP and platform-level checks at login), the app returns HTTP 451 — you cannot create an account, deposit, trade, or withdraw. This is non-negotiable and required by the asset issuers we work with (USDT enforces the same restriction).
+If you're in one of these countries (detected at login), the app won't open — you can't create an account, deposit, trade, or withdraw. This is non-negotiable and required by the issuer of USDT, which enforces the same restriction.
 
 **Every other country is open**, including the United States, Canada, and Mexico — the FIFA World Cup 2026 host countries.
 
-Fronex operates under a **three-mode operational model** that you, the user, don't really need to think about — it only affects how we market in your region:
+How your region is treated only affects our *marketing* — never your *access*:
 
-| Mode | What it means for marketing |
+| Your region | What it means |
 |---|---|
-| `BLOCKED_SANCTIONS` | Platform blocked. (IR/SY/KP/CU) |
-| `OPEN_ACCESS_NO_PAID_ACQUISITION` | Open to use. No paid ads run in your region. (US/CA/UK/FR/SG/AU/NZ/etc.) |
-| `PRIMARY_GROWTH` | Open to use. Active marketing and localization. (LATAM/East Asia/CIS/DACH/etc.) |
+| Sanctioned (Iran, Syria, North Korea, Cuba) | Blocked — the app won't open. |
+| Open, no paid ads | Fully usable. We just don't run paid ads there (e.g. US, Canada, UK, France, Singapore, Australia, NZ). |
+| Primary growth | Fully usable, plus active marketing and local-language support (e.g. Latin America, East Asia, CIS, German-speaking Europe). |
 
-If you can open the app and deposit, you can use it. The mode only affects what you might see on Twitter, not what you can do inside Fronex.
+If you can open the app and deposit, you can use it. The only thing that changes by region is what you might see on social media — not what you can do inside Fronex.
 
 ## Age policy
 
@@ -68,7 +68,7 @@ We use **predict**, **call it**, and **drop a prediction**. This isn't aesthetic
 
 ## What we will never do
 
-* Ask for your mnemonic or any other wallet's recovery phrase.
+* Ask for the recovery phrase to your Fronex vault or any other wallet.
 * Promise guaranteed returns or "AI prediction signals."
 * DM you first to offer beta access (during closed beta you'll receive a personal invitation from the founder; we never use third-party DMs).
 * Run paid promotional campaigns through random influencers without disclosure.

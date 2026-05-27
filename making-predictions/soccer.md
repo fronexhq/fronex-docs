@@ -4,7 +4,7 @@ description: FIFA World Cup 2026, leagues, props — the largest pillar on Frone
 
 # Soccer markets
 
-Soccer is the heart of Fronex. About 70% of platform volume runs through soccer markets during the FIFA World Cup 2026.
+Soccer is the heart of Fronex — and the biggest pillar by far during the FIFA World Cup 2026.
 
 ## Market types
 
@@ -29,8 +29,8 @@ Two-way per team: **does this team qualify for the Round of 32?** A team qualifi
 
 Across all 12 groups, 8 of the 12 third-placed teams advance. Two related markets:
 
-* **soccer\_3rd\_place\_advance** — does this specific team's 3rd-place finish make the cut?
-* **soccer\_best\_3rd\_count** — how many points / GD will it take to qualify as a best-3rd?
+* **Best-3rd advance** — does this specific team's 3rd-place finish make the cut?
+* **Best-3rd cutoff** — how many points (or goal difference) it takes to qualify as a best-3rd team.
 
 ### Top scorer
 
@@ -64,6 +64,6 @@ Match-result markets typically open 24–72 hours before kickoff. Prices move as
 
 You can predict in or out at any time until the market locks at kickoff. After kickoff, the market is **closed** — no more trading until resolution.
 
-## Pillar accent color
+## In the app
 
-Soccer markets use **green** (`#22C55E`) for the win/Called-It state. The pillar's icon in the navigation is a stylized soccer-ball glyph from the Fronex sticker set — not a system emoji.
+Soccer markets — and a soccer call you get right — show up in **green**.

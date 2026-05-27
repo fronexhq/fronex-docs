@@ -6,12 +6,12 @@ description: Your personal on-chain vault, deposits, withdrawals, and what self-
 
 ## Your own on-chain vault
 
-When you sign up, Fronex generates a **personal vault wallet** for you on the TON blockchain. It's a `WalletContractV4` — the standard TON wallet contract — and it's yours.
+When you sign up, Fronex generates a **personal vault wallet** for you on the TON blockchain. It's a standard TON wallet, and it's yours.
 
 Two things matter about that:
 
 1. **Your balance is on-chain, not on our books.** When you deposit USDT, it sits in your vault's address — we don't pool user funds into a house wallet. You can verify your balance independently on any TON block explorer (tonviewer.com, tonscan.org).
-2. **Your mnemonic is encrypted.** We hold it in encrypted form so we can settle markets for you — but on launch day, we'll make export available so you can move funds out using any standard TON wallet.
+2. **Your recovery phrase is encrypted.** We hold it in encrypted form so we can settle markets for you — but on launch day, we'll let you export it so you can move funds out using any standard TON wallet.
 
 This is **non-custodial in spirit** — your balance is yours, observable on-chain — with the convenience that the app can sign settlement transactions for you while a market is live.
 
@@ -70,7 +70,7 @@ Until launch day, exports are disabled to keep the closed-beta wallet population
 
 ## What we never ask for
 
-* Your TON mnemonic from another wallet
+* The recovery phrase to any other wallet
 * A signature from any wallet other than your Fronex vault
 * Your Telegram password or 2FA codes
 

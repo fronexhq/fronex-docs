@@ -4,7 +4,7 @@ description: The Bracket Challenge — Fronex's marquee tournament for the FIFA 
 
 # The Bracket Challenge
 
-The Bracket Challenge is Fronex's flagship tournament. One entry, 32 picks, real USDT prizes — and it lives entirely off-chain in our database so there are no per-entry gas fees.
+The Bracket Challenge is Fronex's flagship tournament. One entry, 32 picks, real USDT prizes — and it runs inside the app rather than on the blockchain, so there are no per-pick network fees.
 
 ## What it is
 
@@ -41,7 +41,7 @@ A perfect bracket would score thousands of points. Realistically nobody's ever p
 
 ## Settlement
 
-Tournaments are **100% off-chain** — in PostgreSQL, not on TON contracts. This keeps entry costs low and lets us run leaderboards in real time. The prize-pool payout, however, *is* on-chain: when the tournament resolves (within 24 hours of the FIFA World Cup 2026 Final on July 19, 2026), payouts go out as a single batched **ClaimBatch** transaction from the platform's vault.
+The tournament runs inside the app, not on the blockchain — that keeps entry costs low and lets the leaderboard update in real time. The prize payout *is* on-chain: when the tournament resolves (within 24 hours of the FIFA World Cup 2026 Final on July 19, 2026), every winner is paid in a single batched payout on TON.
 
 You can claim your prize from the Mini App at any time during the 90 days following resolution.
 

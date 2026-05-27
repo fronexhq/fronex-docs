@@ -4,7 +4,7 @@ description: Markets created by the community — the moat that makes Fronex dif
 
 # Community & custom markets
 
-About 3% of platform volume — small by share, but **the moat**. Community markets are markets **Market Owners** (any user who's earned that role) propose, the platform reviews for clarity, and other users predict on.
+Small by share, but **the moat**. Community markets are markets **Market Owners** (any user who's earned that role) propose, the platform reviews for clarity, and other users predict on.
 
 ## What a community market can be
 
@@ -52,15 +52,15 @@ The review usually takes seconds. If it fails, you'll see the specific issue and
 
 ## Defaults and visibility
 
-* Community markets default to **COMMUNITY** visibility — they show up in the Community pillar feed.
-* They can be promoted to **PUBLIC** by the platform if they reach a liquidity threshold.
-* Trade fees on Community markets carry a **1.5× multiplier** vs. sports/crypto markets — that extra goes to the Market Owner as compensation for manual resolution.
+* Community markets start out visible in the **Community feed**.
+* The platform can promote a popular one to the **main public feed** once it reaches a liquidity threshold.
+* Trade fees on Community markets are **1.5× the rate** of sports/crypto markets — that extra goes to the Market Owner for the work of creating and settling the market.
 
 See [Become a Market Owner](../market-owners.md) for the full Market Owner flow.
 
-## Pillar accent color
+## In the app
 
-Community markets use **violet** (`#8B5CF6`) for the Called-It state.
+Community markets show up in **violet**.
 
 ## Content rules — hard
 

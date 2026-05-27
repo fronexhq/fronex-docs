@@ -116,7 +116,7 @@ A share of the 0.5× trade-fee multiplier above baseline on Community markets. I
 
 ### Who custodies my funds?
 
-You do, in spirit. Your funds sit in a personal vault wallet (a `WalletContractV4` on TON) tied to your account. The wallet's mnemonic is encrypted by Fronex during closed beta so the app can sign settlement transactions for you. At public launch, **Export Wallet** becomes available — paste the mnemonic into any TON wallet and your balance moves with you.
+You do, in spirit. Your funds sit in your own vault wallet on TON, tied to your account. Its recovery phrase is encrypted by Fronex during closed beta so the app can settle markets for you. At public launch, **Export Wallet** becomes available — paste the recovery phrase into any TON wallet and your balance moves with you.
 
 ### Can Fronex see my deposits?
 
@@ -128,7 +128,7 @@ Your funds are in your personal vault on TON. Even if Fronex's servers were enti
 
 ### What if there's a smart-contract bug?
 
-Our two Tact contracts (FronexVault and FronexStaking) are public on GitHub at [github.com/fronexhq/fronex-contracts](https://github.com/fronexhq/fronex-contracts). They've been reviewed but not formally audited at launch. Any bug we find is disclosed and either patched (for non-fund-affecting issues) or addressed via insurance pool payouts (for fund-affecting issues).
+Our smart contracts are open-source, and we'll publish them on GitHub so anyone can read them. They've been reviewed but not formally audited at launch. Any bug we find is disclosed and either patched (for issues that don't affect funds) or covered from the insurance pool (for issues that do).
 
 ### What if I disagree with a resolution?
 

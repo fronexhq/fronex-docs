@@ -4,7 +4,7 @@ description: Music charts, awards, ceremonies, summer culture — entertainment 
 
 # Entertainment markets
 
-About 7% of platform volume. The entertainment pillar tracks **public, oracle-resolvable culture markets** with a soft tilt toward the FIFA World Cup 2026 window (June–July 2026).
+The entertainment pillar tracks **public, verifiable culture markets** with a soft tilt toward the FIFA World Cup 2026 window (June–July 2026).
 
 ## Market types
 
@@ -47,6 +47,6 @@ Entertainment markets must be **clearly oracle-resolvable from a public source**
 
 If you propose a Community/Custom entertainment market that fails this filter, our review will reject it. See [Become a Market Owner](../market-owners.md).
 
-## Pillar accent color
+## In the app
 
-Entertainment markets use **purple** (`#A855F7`) for the Called-It state.
+Entertainment markets show up in **purple**.
