@@ -75,6 +75,10 @@ If the primary and secondary prices disagree by more than a small margin, the ma
 
 For match-window markets, the price is captured **within 60 seconds of full-time**. We keep both the Binance and CoinGecko readings on record so any settlement can be checked later.
 
+## Pricing
+
+Crypto strike markets ("BTC closes above $X by date Y") show an **indicative price** computed from live spot + a volatility model — refreshed every 30 seconds. It's a fair-value anchor; the order-book price is what you actually trade. See [How predictions work § The indicative price](overview.md#the-indicative-price).
+
 ## In the app
 
 Crypto markets show up in **orange**.

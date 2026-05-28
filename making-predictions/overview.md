@@ -32,6 +32,22 @@ Markets are an **order book**, not a fixed-price product. Prices move as people 
 
 You don't have to wait until settlement. If you bought Brazil at 0.42 and the price rises to 0.55 before the match starts, you can sell and pocket the difference.
 
+## The indicative price
+
+Alongside the order-book price, every market shows an **indicative price** — our estimate of fair value based on outside data. It's a reference point, not what you actually trade at; the order book always rules.
+
+The indicative comes from:
+
+* **Soccer**: bookmaker odds from API-Football, averaged across all books that quote the match and converted to a probability (after removing the bookmaker margin).
+* **Crypto strike markets** ("BTC closes above $X by date Y"): live spot price + a volatility model.
+* **Other markets**: a tier-based default until enough trading produces a real price.
+
+The indicative refreshes automatically — every 30 seconds for crypto, every minute during live soccer matches, less often for slow-moving markets. If the order-book price drifts far from the indicative, that's a signal worth a second look: either the market has information the indicative doesn't, or the indicative is anchoring a stale view.
+
+## Heavy-favorite warning
+
+When an outcome is priced at **5¢ or below** (very unlikely) or **95¢ or above** (near-certain), the market is asymmetric: $1 staked on the favorite pays just a few cents, while $1 on the underdog could pay $20+. Fronex shows a banner on these markets and reduces the quick-bet button amounts so you don't accidentally lock a large stake to win pennies. You can still type any amount manually.
+
 ## How settlement works
 
 When the event ends, the market **resolves** based on data from one of our oracle providers:

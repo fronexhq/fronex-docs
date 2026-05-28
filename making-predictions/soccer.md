@@ -64,6 +64,8 @@ Match-result markets typically open 24–72 hours before kickoff. Prices move as
 
 You can predict in or out at any time until the market locks at kickoff. After kickoff, the market is **closed** — no more trading until resolution.
 
+Every soccer market also shows an **indicative price** anchored to live bookmaker odds from API-Football, averaged across all books and refreshed every minute during live matches. See [How predictions work § The indicative price](overview.md#the-indicative-price).
+
 ## In the app
 
 Soccer markets — and a soccer call you get right — show up in **green**.
