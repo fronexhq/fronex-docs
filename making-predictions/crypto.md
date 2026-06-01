@@ -12,7 +12,7 @@ Fronex tracks five crypto assets at launch:
 * **ETH** — Ethereum
 * **SOL** — Solana
 * **XRP** — Ripple
-* **TON** — Toncoin (the asset our chain runs on)
+* **TON** — Gram (the asset our chain runs on)
 
 Crypto is one of Fronex's most active pillars.
 
