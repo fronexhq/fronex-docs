@@ -54,7 +54,7 @@ The review usually takes seconds. If it fails, you'll see the specific issue and
 
 * Community markets start out visible in the **Community feed**.
 * The platform can promote a popular one to the **main public feed** once it reaches a liquidity threshold.
-* Trade fees on Community markets are **1.5× the rate** of sports/crypto markets — that extra goes to the Market Owner for the work of creating and settling the market.
+* Trade fees on Community markets are **1.5× the rate** of sports/crypto markets — the higher rate rewards the work of creating and settling the market. Half of every trade fee goes to the Market Owner; the rest funds the maker-rebate, treasury, and insurance pools.
 
 See [Become a Market Owner](../market-owners.md) for the full Market Owner flow.
 

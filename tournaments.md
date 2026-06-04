@@ -4,52 +4,44 @@ description: The Bracket Challenge — Fronex's marquee tournament for the FIFA 
 
 # The Bracket Challenge
 
-The Bracket Challenge is Fronex's flagship tournament. One entry, 32 picks, real USDT prizes — and it runs inside the app rather than on the blockchain, so there are no per-pick network fees.
+The Bracket Challenge is Fronex's flagship tournament. Two rounds, 32 picks, real USDT prizes — and it runs inside the app rather than on the blockchain, so there are no per-pick network fees.
 
 ## What it is
 
-Before the FIFA World Cup 2026 begins on June 11, 2026, you submit **a full bracket**:
+The Bracket Challenge runs over the FIFA World Cup 2026 (which begins June 11, 2026) in two rounds:
 
-1. **Group-stage picks** — who finishes 1st, 2nd, and 3rd in each of the 12 groups.
-2. **Best-3rd picks** — which 8 of the 12 third-placed teams advance to the Round of 32.
-3. **Knockout picks** — predicting every match through the Round of 32 (16 matches), Round of 16 (8), Quarter-Finals (4), Semi-Finals (2), Third-Place (1), and the Final.
+1. **Round 1 — Group stage** — 16 group-stage picks, each a 3-way outcome. Round 1 is **free to enter**.
+2. **Round 2 — Knockout (Round of 32)** — 16 binary knockout picks. Round 2 has a **$1 USDT** entry fee.
 
-Total picks per entry: **104 matches** worth of outcomes, condensed into a single bracket form. The Mini App walks you through it screen by screen.
+Total picks across both rounds: **32**. The Mini App walks you through it screen by screen.
 
 ## Entry fee and prize pool
 
-* **Entry fee**: small USDT amount (set per season, shown in the Mini App at signup).
-* **Prize pool**: 100% of entry fees, minus a small platform fee, plus a seed contribution from Fronex.
-* **Refund condition**: if fewer than 10 entries are received, the tournament is cancelled and entry fees are refunded to all participants.
+* **Entry fee**: Round 1 is free; Round 2 is **$1 USDT** (shown in the Mini App at signup).
+* **Prize pool**: 100% of entry fees, minus a 5% platform fee, plus a seed contribution from Fronex.
+* **Refund condition**: if a tournament has fewer than the minimum number of players, it is cancelled and each player's entry fee is refunded to their balance.
 
 ## Scoring
 
-Points are awarded per correct pick, with multipliers that increase as the tournament progresses:
+Each pick is scored as the matches it's based on resolve:
 
-| Stage | Points per correct pick |
-|---|---|
-| Group placement | 5 |
-| Best-3rd advance | 10 |
-| Round of 32 | 15 |
-| Round of 16 | 25 |
-| Quarter-Finals | 50 |
-| Semi-Finals | 100 |
-| Third-Place playoff | 75 |
-| **Final winner** | **200** |
+* A **correct** pick earns points.
+* A **wrong** pick loses a smaller number of points.
+* If a backing match is cancelled or voided, that pick scores **0** (it doesn't count for or against you).
 
-A perfect bracket would score thousands of points. Realistically nobody's ever picked one — but you don't need to be perfect to win the prize pool. The best bracket among the entries takes the top prize; runners-up share a graded payout.
+Your score climbs (or dips) match by match. You don't need a perfect bracket to win — the highest total among the entries takes the top prize, and runners-up share a graded payout.
 
 ## Settlement
 
-The tournament runs inside the app, not on the blockchain — that keeps entry costs low and lets the leaderboard update in real time. The prize payout *is* on-chain: when the tournament resolves (within 24 hours of the FIFA World Cup 2026 Final on July 19, 2026), every winner is paid in a single batched payout on TON.
+The tournament runs inside the app, not on the blockchain — that keeps entry costs low and lets the leaderboard update in real time. Prizes are settled the same way: when the tournament resolves (after the FIFA World Cup 2026 Final on July 19, 2026), Fronex scores and ranks all entries and **credits each winner's USDT balance automatically**.
 
-You can claim your prize from the Mini App at any time during the 90 days following resolution.
+There's nothing to claim and no deadline — winnings land in your balance as soon as settlement runs, and you can withdraw them to your TON wallet whenever you like.
 
 ## Editing your bracket
 
-Locked at the **kickoff of the first FIFA World Cup 2026 match** (June 11, 2026, 21:00 UTC).
+Each pick locks at **its match's kickoff**. Until a match kicks off you can revisit and edit that pick; once it kicks off, that pick is read-only.
 
-Until then, you can revisit and edit any pick. After lock, the bracket is read-only — you can watch your score climb (or fall) match by match, but you cannot change picks.
+You can keep editing your other, not-yet-started picks right up to each of their kickoffs. After a pick locks you can watch its score climb (or fall) match by match, but you cannot change it.
 
 ## Tournament template, not one-off
 

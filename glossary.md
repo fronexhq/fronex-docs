@@ -52,7 +52,13 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Fronex.xyz** — our studio's public website, launching alongside the app on June 7, 2026.
 
-**FronexVault** — the on-chain vault that holds the funds staked in a market and pays out winners on TON.
+**FronexVault** — the on-chain contract Fronex uses for market bookkeeping on TON. Your USDT balance, market stakes, and payouts are tracked in Fronex's ledger and credited automatically — you don't claim a prize, and winnings land in your balance the moment a market or tournament settles.
+
+***
+
+## G
+
+**Gram** — the display name for amounts of TON's native coin in the app — the small bit of coin you spend on network-fee gas, or that a Market Owner locks as a stake. It's the same coin whose ticker is **TON**; "Gram" is just how Fronex labels those amounts. See **TON**.
 
 ***
 
@@ -112,7 +118,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ## T
 
-**TON** — The Open Network, the blockchain Fronex runs on. Also the name of TON's own coin (one of our five tracked crypto assets).
+**TON** — The Open Network, the blockchain Fronex runs on. **TON** is also the ticker of the network's own coin — one of the five crypto assets we track — and the network you send and receive USDT on. When the app shows an amount of that native coin you spend (network-fee gas) or lock (a Market Owner stake), it's labelled **Gram**: same coin, display name for amounts. See **Gram**.
 
 **Token (closed-beta invite)** — your personal invite code that unlocks the app during closed beta. Issued individually, not transferable.
 

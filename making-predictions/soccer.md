@@ -54,7 +54,7 @@ The FIFA World Cup 2026 is hosted at neutral venues across the USA, Canada, and 
 
 ## Resolution
 
-Soccer markets resolve from **API-Football Pro** within minutes of full-time. If API-Football disagrees with our backup feed (TheSportsDB), the market goes into pending status and we resolve manually within 24 hours.
+Soccer markets resolve from **API-Football** within minutes of full-time. If API-Football disagrees with our backup feed (TheSportsDB), the market goes into pending status and we resolve manually within 24 hours.
 
 For penalty-shootout-decided knockouts, the winner of the shootout is the winning outcome — not "draw."
 

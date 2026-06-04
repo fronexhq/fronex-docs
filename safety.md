@@ -13,7 +13,7 @@ Fronex blocks four jurisdictions at the platform level:
 * **North Korea** 🇰🇵
 * **Cuba** 🇨🇺
 
-If you're in one of these countries (detected at login), the app won't open — you can't create an account, deposit, trade, or withdraw. This is non-negotiable and required by the issuer of USDT, which enforces the same restriction.
+If you're in one of these countries (detected at login), the app won't open — you can't create an account, deposit, trade, or withdraw. This is a sanctions-only block and is non-negotiable.
 
 **Every other country is open**, including the United States, Canada, and Mexico — the FIFA World Cup 2026 host countries.
 
@@ -40,15 +40,14 @@ Fronex is a prediction product, not a betting product, but the practical risk to
 A few rules of thumb:
 
 * **Deposit only what you can comfortably lose.** Treat any USDT in your Fronex wallet as already gone — that way every win is a bonus.
-* **Cap your daily volume.** Use Profile → Limits to set a daily spend cap. The cap is enforced before any trade.
+* **Mind the built-in caps.** Fronex enforces position and daily-volume caps automatically before every trade, and steps in with a warning or a short cool-down if you hit a losing streak or spend a lot in one day. You don't set these — they're on by default.
 * **Take breaks.** If you're predicting on autopilot or chasing losses, close the app. The market will be there tomorrow.
 * **Don't predict when emotional or impaired.** It's the same advice your gambling-aware friends would give you.
 
 ## What we will help with
 
-* **Account self-exclusion.** Profile → Self-Exclude pauses your account for 30 days, 6 months, or permanently. Once set, it cannot be reversed before the timeline ends.
-* **Daily limits.** Profile → Limits sets per-day deposit and trade caps.
-* **Withdrawal first.** If you set a self-exclusion, your balance is automatically queued for withdrawal to your last-used destination address.
+* **Account self-exclusion.** We can pause your account for 24 hours, 7 days, 30 days, or permanently. While self-excluded you can't trade, but you can still withdraw your funds. Email us to set one up.
+* **Withdraw any time.** A self-exclusion never freezes your money — withdrawals stay open so you can pull your balance whenever you want.
 
 ## Forbidden in user-facing copy
 

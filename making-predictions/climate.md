@@ -41,7 +41,7 @@ Resolution comes from **NOAA NHC** (the National Hurricane Center's public advis
 
 * **Primary oracle for weather**: Open-Meteo (free, station-accurate, daily refresh)
 * **Hurricane data**: NOAA NHC public feed
-* **No backup oracle for climate** — climate markets have a single data source and a built-in 6-hour delay on resolution to catch any feed errors
+* **No backup oracle for climate** — each climate market type has a single data source. If that source is delayed or looks wrong, the market enters **pending resolution** and we resolve it manually within 24 hours (see [Making predictions › overview](overview.md))
 
 For markets that depend on a specific station (e.g., "Mexico City Benito Juárez Airport"), the station name is noted on the market detail page.
 

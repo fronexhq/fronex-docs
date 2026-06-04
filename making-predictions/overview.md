@@ -58,7 +58,7 @@ When the event ends, the market **resolves** based on data from one of our oracl
 * **Climate**: Open-Meteo (weather), NOAA NHC (hurricanes)
 * **Community/Custom**: Market Owner sets the resolution rule when creating the market; resolution is verified manually
 
-Payouts hit your wallet within seconds of settlement. The Mini App will push a notification.
+Payouts are credited straight to your in-app USDT balance within seconds of settlement — there's no claim step. The Mini App will push a notification.
 
 ## Disputed or delayed resolutions
 

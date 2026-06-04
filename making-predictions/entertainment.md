@@ -34,7 +34,7 @@ Selective markets on **summer 2026 box-office releases** and **major streaming l
 * **Music**: Spotify Charts (free public feed), Billboard for album-debut markets where available
 * **Other public culture data**: source noted on each market's resolution page
 
-Entertainment markets are **semi-manual** — an oracle pulls the data, but a human confirms the resolution before payout. This is why entertainment markets carry the same creation fee tier as crypto/sports but slightly slower settlement (typically 24 hours from event close).
+Entertainment markets are **semi-manual** — an oracle pulls the data, but a human confirms the resolution before payout. This is why entertainment markets sit in a higher creation fee tier than crypto/sports (the semi-manual pillars cost more to list) and settle slightly slower (typically 24 hours from event close).
 
 ## What we don't list
 

@@ -20,7 +20,7 @@ Eight at launch: English, Chinese (Simplified), Russian, Japanese, Korean, Germa
 
 ### Do I need a separate wallet?
 
-No. Fronex generates a personal vault wallet for you at signup. You don't need Tonkeeper, MyTonWallet, or any external wallet to use the app. (Though you'll want one when you withdraw.)
+No external wallet is needed to deposit and play — you can fund your account in one tap with TON Connect or by sending USDT-on-TON to your deposit address. You'll want a TON wallet (Tonkeeper, MyTonWallet, Telegram Wallet, …) when you withdraw, since that's where your USDT is sent.
 
 ### How do I get into the closed beta?
 
@@ -32,25 +32,24 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with your Telegram handle, tim
 
 ### How can I fund my account?
 
-Markets settle in **USDT on TON**, and that's what ends up in your vault — but you don't have to already hold it. The Deposit screen offers several funding paths:
+Markets settle in **USDT on TON**, and that's how you fund your account — you deposit native USDT on the TON network. The Deposit screen gives you two ways to do it:
 
-* **Telegram Wallet** — send USDT you already hold on TON. No Fronex fees.
-* **Card / Apple Pay** — buy USDT with regular money via MoonPay.
-* **Crypto & Bridge** — swap from BTC, ETH, SOL, XRP, POL, or USDT on another chain, or bridge USDT from Ethereum.
+* **One-tap with TON Connect** — connect a TON wallet (Telegram Wallet, Tonkeeper, …) and approve a single USDT transfer. Fronex builds the transfer for you so it always goes to the right place; your wallet just signs it. No Fronex fees.
+* **Manual transfer** — copy your deposit address (or scan the QR) and send USDT-on-TON to it from any wallet or exchange. No Fronex fees.
 
 See [Your wallet](your-wallet.md) for the full walkthrough.
 
 {% hint style="warning" %}
-If you send USDT **directly** to your TON address, it must be on the **TON network**. USDT sent to that address on Tron, Ethereum, BSC, or any other network is permanently lost. The card and crypto-swap paths handle network routing for you, so this only applies to a direct send.
+Send only **USDT on the TON network**. USDT sent to your address on Tron, Ethereum, BSC, or any other network is permanently lost. There is no card, on-ramp, or cross-chain bridge — funding is native USDT-on-TON only.
 {% endhint %}
 
 ### Is there a minimum deposit?
 
-No enforced minimum for a direct TON send, but TON network fees are small, so we recommend at least 5 USDT for your first deposit. Crypto swaps have a per-asset minimum that's shown in the app before you send.
+Yes — **0.01 USDT**. Below that, TON's rounding can produce a zero-value transfer that still burns network gas. There's no upper limit. For a first deposit you'll also want a little TON in your wallet to cover network gas on the transfer.
 
 ### How long do deposits take?
 
-A direct TON send confirms in 5–30 seconds. Card payments land within a few minutes; crypto swaps take ~10–30 minutes and an Ethereum bridge ~5–15 minutes. Your Fronex balance updates as soon as the deposit confirms.
+A USDT-on-TON transfer typically confirms in 5–30 seconds. Your Fronex balance updates automatically once the deposit is detected on-chain — there's no fixed confirmation count or manual step.
 
 ### Can I deposit TON instead of USDT?
 
@@ -86,15 +85,15 @@ Usually under 60 seconds after you confirm. The TON network is fast.
 
 ### What does a withdrawal cost?
 
-The TON network fee (a few cents). Fronex does not add a withdrawal fee.
+Nothing from Fronex — there's no platform or percentage withdrawal fee. Withdrawals require network gas on TON, and **Fronex sponsors that gas for you**, so the full amount you request is what's sent. The minimum withdrawal is **1 USDT** (a floor to keep withdrawals from costing more in gas than they're worth).
 
-### What's the daily withdrawal limit?
+### Is there a withdrawal limit?
 
-During closed beta: 1,000 USDT per 24 hours. At public launch on June 7, 2026, this relaxes.
+You can make up to **5 withdrawals per rolling 24 hours**. There's no cap on the total amount you can withdraw — it's a count limit, not a value limit.
 
-### Can I export my wallet to Tonkeeper?
+### Can I withdraw to my own wallet?
 
-Yes, at public launch. Profile → Security → Export Wallet will give you the recovery phrase. During closed beta, exports are disabled to keep the population stable.
+Yes. Withdraw any time to any TON wallet you control (Tonkeeper, MyTonWallet, Telegram Wallet, …). Fronex signs the USDT transfer to your address; you don't need a recovery phrase from us to receive it.
 
 ***
 
@@ -118,7 +117,7 @@ The AI review shows you the specific issue. Edit and resubmit.
 
 ### How much do Market Owners earn?
 
-A share of the 0.5× trade-fee multiplier above baseline on Community markets. If your market sees 10,000 USDT in trade volume and the baseline fee is 1%, the MO share is approximately 50 USDT for that market. Bigger markets, bigger share.
+Market Owners earn **50% of the trade fees** generated on their markets. The baseline taker fee is 1.5%, and Community markets carry the highest fee multiplier (1.5×), so they generate the most fee revenue to share. Bigger markets, bigger share.
 
 ***
 
@@ -126,15 +125,15 @@ A share of the 0.5× trade-fee multiplier above baseline on Community markets. I
 
 ### Who custodies my funds?
 
-You do, in spirit. Your funds sit in your own vault wallet on TON, tied to your account. Its recovery phrase is encrypted by Fronex during closed beta so the app can settle markets for you. At public launch, **Export Wallet** becomes available — paste the recovery phrase into any TON wallet and your balance moves with you.
+Fronex does. Fronex is a **custodial** prediction platform: you deposit native USDT-on-TON, and once it's credited, Fronex holds your funds and tracks your balance in our off-chain ledger, which is the authoritative record. You can withdraw to your own TON wallet any time, and Fronex signs the USDT transfer back to you. There's no per-user wallet you control and no recovery phrase to export — custody and solvency are Fronex's responsibility.
 
-### Can Fronex see my deposits?
+### How do I know my balance is backed?
 
-Anyone can. Your vault wallet's TON address is public on the chain. Anyone with a TON block explorer can see your balance and transactions. That's a feature, not a bug — it's how we promise you that your money isn't pooled with everyone else's.
+Fronex's balances are continuously reconciled against the USDT we hold on-chain, so the total of everyone's balances is always covered by real funds. We monitor this around the clock and surface any discrepancy loudly rather than letting it slide.
 
 ### What if the platform goes down?
 
-Your funds are in your personal vault on TON. Even if Fronex's servers were entirely offline, your USDT is still on TON. Pending market positions might be slower to settle, but the underlying assets are not at risk from a platform outage.
+Your USDT balance is recorded in Fronex's ledger and backed by funds held on TON. A temporary server outage doesn't put your balance at risk — pending market positions may be slower to settle, but your funds remain accounted for and reconciled.
 
 ### What if there's a smart-contract bug?
 

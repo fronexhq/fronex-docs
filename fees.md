@@ -4,62 +4,62 @@ description: What Fronex charges, where the money goes, and how payouts work.
 
 # Fees & payouts
 
-Fronex earns only on **trade fees** and **market creation fees**. There is no spread on the order book; the price you see is the price you pay. There are no withdrawal fees beyond the small TON network fee.
+Fronex earns only on **trade fees** and **market creation fees**. There is no spread on the order book; the price you see is the price you pay. There is no deposit fee and no platform withdrawal fee — the only cost to move money is the TON network gas, and your withdrawal gas is paid by Fronex for you (it is never taken out of your USDT).
 
 ## Trade fees
 
-When you predict in or out of a market, a small percentage fee is taken from your trade. Where the fee goes depends on the pillar:
+When you take an order (predict in or out of a market), a small percentage fee is taken from your trade. The baseline taker fee is **1.5%**, and makers (resting limit orders) pay **no fee**. The effective rate is then scaled by a per-pillar multiplier, by how active the market is, and by your 30-day trading volume (higher-volume traders pay less):
 
 | Pillar | Trade fee multiplier | Notes |
 |---|---|---|
-| Soccer | 1× (baseline) | Auto-resolved via API-Football |
-| Crypto | 1× (baseline) | Auto-resolved via Binance + CoinGecko |
-| Entertainment | 1× (baseline) | Semi-manual resolution |
-| Climate | 1× (baseline) | Auto-resolved via Open-Meteo / NOAA |
-| **Community / Custom** | **1.5×** | Manual MO resolution — extra goes to the Market Owner |
+| Soccer | 0.8× | Auto-resolved via API-Football |
+| Crypto | 1.0× (baseline) | Auto-resolved via Binance + CoinGecko |
+| Entertainment | 1.2× | Semi-manual resolution |
+| Climate | 1.2× | Auto-resolved via Open-Meteo / NOAA |
+| **Community / Custom** | **1.5×** | Manual MO resolution |
 
-The actual baseline percentage is shown on the trade panel before you confirm. You won't be surprised.
+On top of this, **one pillar rotates to zero fee each week** (every Monday UTC), so a full category trades fee-free one week in five.
 
 ## Trade fee splits
 
 The trade fee is split four ways:
 
-1. **Market Owner share** — only on Community/Custom markets. The 0.5× multiplier above baseline goes here.
-2. **Rebate pool** — funds a small rebate for early predictors who provide liquidity into a new market.
-3. **Treasury** — the platform's operating account.
-4. **Insurance pool** — a small slice held back to cover disputed resolutions.
-
-The exact split percentages are configurable per market and shown on the market's detail page.
+1. **Market Owner share — 50%.** The Market Owner who created the market earns half of every trade fee on it.
+2. **Rebate pool — 30%.** Paid out daily, pro-rata, to the real makers who provided the liquidity you traded against.
+3. **Treasury — 15%.** The platform's operating account.
+4. **Insurance pool — 5%.** Held back to cover disputed resolutions and reversed-oracle refunds.
 
 ## Market creation fees
 
-Creating a market — whether as the platform or as a Market Owner — costs a flat USDT fee, paid at market creation time. The fee is **refunded** if the market is cancelled before the event begins (e.g., low entries, oracle failure, or AI clarity review rejection that you can't or won't fix).
+Creating a market — whether as the platform or as a Market Owner — costs a flat USDT fee, paid at market creation time. The fee is **refunded in full** if your draft is rejected during admin review (for example, an AI clarity review rejection you can't or won't fix).
 
-| Pillar tier | Creation fee | Why |
+| Pillar | Creation fee | Why |
 |---|---|---|
-| Soccer / Crypto / Climate (auto-resolved) | Lower tier | Oracle-fed, minimal manual work |
-| Entertainment (semi-manual) | Lower tier | Verified against public charts |
-| Community / Custom (Pillar 5) | Higher tier | Manual MO resolution; matches the 1.5× trade fee multiplier |
+| Soccer | $5 | Oracle-fed, minimal manual work |
+| Crypto | $5 | Oracle-fed, minimal manual work |
+| Entertainment | $15 | Semi-manual, verified against public sources |
+| Climate | $15 | Oracle-fed, but stricter parameters |
+| Community / Custom (Pillar 5) | $25 | Manual MO resolution |
 
-The exact fee schedule is shown in the Mini App's Create flow before you commit.
+The exact fee is shown in the Mini App's Create flow before you commit.
 
 ## Where there are no fees
 
-* **No deposit fee.** TON network fee (~0.05 TON) applies on the chain, not on Fronex.
-* **No platform withdrawal fee.** Same — only the TON network fee applies.
+* **No deposit fee.** Only the TON network gas applies, paid by your own wallet when you send the deposit, not by Fronex. The minimum deposit is **0.01 USDT**.
+* **No platform withdrawal fee, and no withdrawal gas charged to you.** Fronex sponsors the TON gas for your withdrawal — it is never deducted from your USDT balance. The minimum withdrawal is **1 USDT**.
 * **No idle-balance fee.** Holding USDT in your Fronex wallet costs nothing.
-* **No fee on the Bracket Challenge entry** beyond the stated entry fee, which is 100% pooled minus a small platform cut declared on the entry screen.
+* **No fee on the Bracket Challenge entry** beyond the stated entry fee. Round 1 is free; Round 2 is **$1 USDT**. Entry fees are 100% pooled, minus a **5% platform cut** declared on the entry screen.
 
 ## Payouts
 
-Payouts to your wallet happen **at settlement**:
+Payouts are credited **automatically** to your Fronex balance **at settlement** — there is nothing to claim:
 
-* **Auto-resolved markets**: within seconds of the event ending.
+* **Auto-resolved markets**: shortly after the event ends, once the oracle result is in.
 * **Semi-manual markets** (Entertainment): within 24 hours.
 * **Community/Custom markets**: within 24 hours of the Market Owner setting the outcome.
-* **Bracket Challenge**: within 24 hours of the FIFA World Cup 2026 Final.
+* **Bracket Challenge**: prizes are credited automatically once the tournament's end time passes and settlement runs — winnings are pushed straight to your balance, with no claim window.
 
-Payouts settle to your Fronex wallet as USDT (TON network). From there, you can withdraw to any external TON wallet.
+Payouts settle to your Fronex balance as USDT. From there, you can withdraw to any external TON wallet.
 
 ## What about the platform's wallet?
 
@@ -67,9 +67,11 @@ Your funds live in **your own personal vault** ([Your wallet](your-wallet.md)) �
 
 ## Refunds
 
-Markets that **never reach the minimum liquidity** to be viable are cancelled, all positions refunded, and the creation fee refunded to the creator. The Mini App shows the minimum-liquidity threshold on each market's detail page.
+A draft market that is **rejected during admin review** has its creation fee returned in full to the creator, in the same step as the cancellation.
 
-Markets that **resolve to an outcome we then determine was wrong** trigger an automatic refund of all positions on the losing side, paid from the insurance pool. We have not yet had to use this path; if we do, the post-mortem is published publicly.
+Markets that **resolve to an outcome we then determine was wrong** trigger a refund of affected positions, paid from the insurance pool. We have not yet had to use this path; if we do, the post-mortem is published publicly.
+
+Tournaments that don't reach the minimum number of players are **cancelled, and every entry fee is refunded** to your balance automatically.
 
 ## Tax
 

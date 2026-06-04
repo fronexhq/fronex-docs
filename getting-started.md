@@ -44,8 +44,8 @@ Blocked users can't open the app or sign in.
 ## What you need before you start
 
 * A Telegram account in good standing.
-* A way to fund your first prediction — USDT you already hold on TON, a card / Apple Pay, or crypto from another chain. We suggest 5–20 USDT to get a feel for the markets. See [Your wallet](your-wallet.md) for every funding path.
-* A few minutes. A direct TON deposit confirms in 30–60 seconds; card and cross-chain methods take a little longer.
+* A way to fund your first prediction — USDT on the TON network. You can connect a TON wallet (Telegram Wallet, Tonkeeper, and others) for a one-tap deposit, or send USDT manually to your deposit address. We suggest 5–20 USDT to get a feel for the markets. See [Your wallet](your-wallet.md) for every funding path.
+* A few minutes. A USDT-on-TON deposit usually credits within a minute or so once it lands on-chain.
 
 ## What you'll see first
 

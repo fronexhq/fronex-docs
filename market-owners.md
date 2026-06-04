@@ -47,9 +47,9 @@ Top finishers in the Bracket Challenge and other tournaments are offered MO stat
 
 ## What an MO earns
 
-Every trade on a market you created pays the platform's standard trade fee **plus a 1.5× multiplier** (vs. the 1× fee on sports/crypto markets). The extra goes to you, the MO, as compensation for the work of creating and resolving the market.
+Community markets carry the highest fee multiplier of any pillar — **1.5×** the base trade fee (vs. 0.8× on Sports and 1.0× on Crypto). Out of every trade fee collected, **half (50%) goes to you, the MO**, as compensation for the work of creating and resolving the market. (The rest funds the maker rebate pool, the treasury, and the insurance pool.)
 
-Payouts to MOs settle in USDT to your Fronex wallet, within 24 hours of each market's resolution.
+Your MO share is credited in USDT to your Fronex wallet **on every trade, as it happens** — you don't wait for the market to resolve to start earning.
 
 ## What you commit to as an MO
 
@@ -61,7 +61,7 @@ Payouts to MOs settle in USDT to your Fronex wallet, within 24 hours of each mar
 
 * **MO status**, if you resolve dishonestly or repeatedly leave markets unresolved.
 * **A specific market's fee share**, if you fail to resolve within 24 hours.
-* **The market's creation fee**, if the market is rejected at AI clarity review and you cannot or will not edit to comply.
+* **Time, not money, on a rejected market.** If your market is rejected at review, your **creation fee is refunded in full** to your Fronex balance. You only lose the effort of resubmitting.
 
 ## Tools we give MOs
 
