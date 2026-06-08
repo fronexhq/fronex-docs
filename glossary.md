@@ -24,7 +24,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Climate (pillar)** — host-city weather and hurricane markets, settled from public weather data (Open-Meteo and NOAA).
 
-**Closed beta** — the May 28 → June 6, 2026 window when the app is open only to invited testers using real USDT, ahead of public launch.
+**Closed beta** — the May 28 → June 6, 2026 invite-only testing window (real USDT, on mainnet) that preceded the June 7, 2026 public launch. Now ended — Fronex is open to everyone outside sanctioned regions; no invite is needed.
 
 **Community / Custom (pillar)** — markets created by Market Owners rather than by the platform. They carry a slightly higher trade fee, and that extra goes to the Market Owner who creates and settles the market.
 
@@ -50,7 +50,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Fronex.bio** — our sister product: an AI marketing tool for crypto projects. Public SaaS launches September 2026.
 
-**Fronex.xyz** — our studio's public website, launching alongside the app on June 7, 2026.
+**Fronex.xyz** — our studio's public website, live since June 7, 2026.
 
 **FronexVault** — the on-chain contract Fronex uses for market bookkeeping on TON. Your USDT balance, market stakes, and payouts are tracked in Fronex's ledger and credited automatically — you don't claim a prize, and winnings land in your balance the moment a market or tournament settles.
 
@@ -120,7 +120,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **TON** — The Open Network, the blockchain Fronex runs on. **TON** is also the ticker of the network's own coin — one of the five crypto assets we track — and the network you send and receive USDT on. When the app shows an amount of that native coin you spend (network-fee gas) or lock (a Market Owner stake), it's labelled **Gram**: same coin, display name for amounts. See **Gram**.
 
-**Token (closed-beta invite)** — your personal invite code that unlocks the app during closed beta. Issued individually, not transferable.
+**Token (closed-beta invite)** — the personal invite code that unlocked the app during the closed beta (now ended). No token is needed anymore — Fronex is open to everyone outside sanctioned regions.
 
 **Tournaments** — multi-market events with their own entry fee and prize pool. The Bracket Challenge is the first; more come after the World Cup.
 

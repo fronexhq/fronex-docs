@@ -8,7 +8,7 @@ Fronex is a social prediction app you open inside Telegram. You call what happen
 
 You fund your account with USDT on TON, and your balance pays out in USDT on TON. Every market is hand-picked or community-curated. There is no house: you're predicting against other people, and the platform earns only a small fee on each trade.
 
-This guide is the user manual. If you're a Market Owner, a beta tester, or just curious about how the app works under the hood, start here.
+This guide is the user manual. If you're a Market Owner or just curious about how the app works under the hood, start here.
 
 ## What you'll find here
 
@@ -23,6 +23,6 @@ This guide is the user manual. If you're a Market Owner, a beta tester, or just 
 
 ## The honest version
 
-Fronex is a small, founder-built product launching for the FIFA World Cup 2026. Closed beta is invitation-only on mainnet right now; public launch is June 7, 2026.
+Fronex is a small, founder-built product, live for the FIFA World Cup 2026 — public launch shipped June 7, 2026. It's open to everyone outside sanctioned regions; no invite needed.
 
 You will run into rough edges. When you do, tell us: **admin@fronex.xyz** or **[t.me/fronex_official](https://t.me/fronex_official)**.

@@ -1,19 +1,19 @@
 ---
-description: How Fronex holds your USDT, deposits, withdrawals, and what custody means in practice.
+description: Your personal TON vault, deposits, withdrawals, and what self-custody means in practice.
 ---
 
 # Your wallet
 
-## How Fronex holds your balance
+## Your personal vault (self-custody)
 
-Fronex is a **custodial** prediction platform. You deposit native **USDT on TON** to a deposit address, and once the deposit is credited, your balance is tracked in Fronex's ledger — that ledger is the authoritative record of what you own.
+The first time you open the app, Fronex generates a **personal vault** for you on TON — an on-chain wallet that only you control. You deposit native **USDT on TON** to your vault's address, and the USDT held there is your balance. You self-custody: Fronex never holds your funds for you.
 
 Two things matter about that:
 
-1. **Your balance is held by Fronex on your behalf.** After a deposit is credited, the USDT is pooled in Fronex's treasury-controlled wallets and your balance lives in Fronex's off-chain ledger. There is no per-user wallet you control and no recovery phrase to export — custody and solvency are Fronex's responsibility.
-2. **Solvency is continuously reconciled.** A reconciliation worker checks every few minutes that the sum of all user balances is fully backed by the USDT Fronex holds. If anything ever drifted, it would be flagged loudly.
+1. **You self-custody.** Your USDT lives in your own vault on TON — it is **not** pooled into a Fronex treasury wallet. You can export your vault's recovery phrase at any time and move your funds yourself, with or without the app.
+2. **Trading is instant; your funds stay on-chain.** While a market is live, Fronex matches and settles your predictions off-chain so the app feels instant — but the USDT that backs your balance stays in your own on-chain vault until you choose to move it.
 
-You withdraw any time and Fronex signs the USDT back to your own TON wallet from the pool. Because the ledger — not an on-chain wallet you hold — is the source of truth, the convenience is that the app can settle markets for you instantly while a market is live.
+You can withdraw any time to any TON wallet you control, and the app sponsors the network gas. Because predictions settle off-chain, markets can resolve instantly while they're live — and your USDT stays in your own vault the whole time.
 
 ## Funding your wallet
 
@@ -63,9 +63,9 @@ Withdrawals usually settle within about a minute. **Fronex charges no withdrawal
 
 ## Withdrawing to your own wallet
 
-Fronex holds your balance custodially, so there is **no recovery phrase to export** — there is no per-user wallet you control. To take funds off the platform, simply **withdraw** (Wallet → Withdraw) to any TON address you control, such as Tonkeeper or MyTonWallet. Fronex signs the USDT to that address from the treasury pool, and your balance moves with you.
+Your balance lives in your own personal vault, so you have **two ways** to take funds off the platform. The simplest is to **withdraw** in-app (Wallet → Withdraw) to any TON address you control, such as Tonkeeper or MyTonWallet — the app signs the USDT from your vault and sponsors the gas. You can also **export your vault's recovery phrase** from the app's wallet settings and move the USDT yourself from any TON wallet, with or without Fronex.
 
-Because custody is Fronex's responsibility, the security of your funds depends on your Fronex account access and on Fronex's reconciled solvency — not on you safeguarding a seed phrase.
+Because you self-custody, the security of your funds rests on two things: your Telegram account access **and** your recovery phrase. Anyone who has your recovery phrase can move your USDT — keep it offline and never share it with anyone, including people claiming to be Fronex.
 
 ## What we never ask for
 

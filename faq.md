@@ -22,9 +22,9 @@ Eight at launch: English, Chinese (Simplified), Russian, Japanese, Korean, Germa
 
 No external wallet is needed to deposit and play — you can fund your account in one tap with TON Connect or by sending USDT-on-TON to your deposit address. You'll want a TON wallet (Tonkeeper, MyTonWallet, Telegram Wallet, …) when you withdraw, since that's where your USDT is sent.
 
-### How do I get into the closed beta?
+### Do I need an invite to join?
 
-Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with your Telegram handle, time zone, and which pillar interests you most. Closed beta runs May 28 → June 6, 2026.
+No — Fronex is live and open to everyone outside sanctioned jurisdictions. Open **@fronexfun\_bot** in Telegram, tap **Open App**, and you're in. (The May 28 → June 6, 2026 closed beta is over; no token is needed anymore.)
 
 ***
 
@@ -125,15 +125,15 @@ Market Owners earn **50% of the trade fees** generated on their markets. The bas
 
 ### Who custodies my funds?
 
-Fronex does. Fronex is a **custodial** prediction platform: you deposit native USDT-on-TON, and once it's credited, Fronex holds your funds and tracks your balance in our off-chain ledger, which is the authoritative record. You can withdraw to your own TON wallet any time, and Fronex signs the USDT transfer back to you. There's no per-user wallet you control and no recovery phrase to export — custody and solvency are Fronex's responsibility.
+**You do.** Fronex generates a personal on-chain vault for you on TON — a wallet only you control — and your deposited USDT lives there, not in a Fronex treasury. You can withdraw in-app to any TON wallet any time (the app sponsors the gas), or export your vault's recovery phrase and move the funds yourself. Fronex never holds your balance for you.
 
 ### How do I know my balance is backed?
 
-Fronex's balances are continuously reconciled against the USDT we hold on-chain, so the total of everyone's balances is always covered by real funds. We monitor this around the clock and surface any discrepancy loudly rather than letting it slide.
+**Because you hold it.** Your deposited USDT lives in your own on-chain vault on TON — a wallet you control with your recovery phrase and can verify on any TON explorer. Fronex settles markets off-chain for speed, but it never takes custody of your funds.
 
 ### What if the platform goes down?
 
-Your USDT balance is recorded in Fronex's ledger and backed by funds held on TON. A temporary server outage doesn't put your balance at risk — pending market positions may be slower to settle, but your funds remain accounted for and reconciled.
+Your USDT is in your own on-chain vault, not on Fronex's servers, so a temporary outage can't touch it. While the app is down, pending positions may settle more slowly — but your funds stay in your vault, and you hold the recovery phrase.
 
 ### What if there's a smart-contract bug?
 
@@ -156,7 +156,7 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with the market ID and your co
 
 ### Is there a referral program?
 
-Not at launch. We may add one post-WC; if we do, it'll be opt-in and clearly disclosed. We're not running any third-party referral links during closed beta.
+Not right now. We may add one post-WC; if we do, it'll be opt-in and clearly disclosed. We're not running any third-party referral links.
 
 ### When does public launch happen?
 

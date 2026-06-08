@@ -15,16 +15,16 @@ Fronex lives entirely inside Telegram. There is no separate app to install.
 If you don't see the Open App button, send `/start` to the bot.
 
 {% hint style="info" %}
-**During closed beta:** the Mini App only opens for testers who received a token. If you see a Coming Soon screen instead, you don't have a token yet — apply at [admin@fronex.xyz](mailto:admin@fronex.xyz).
+Fronex is **live and open to everyone** outside sanctioned jurisdictions — no invite or token needed. Just tap **Open App**. (If the app won't open, check you're not in a sanctioned region — see [Where Fronex works](#where-fronex-works) below — and that your Telegram is up to date.)
 {% endhint %}
 
 ## Your language
 
-We launch in **eight languages**: English, Chinese (Simplified), Russian, Japanese, Korean, German, Portuguese (Brazil), Spanish (LATAM).
+Fronex is available in **eight languages**: English, Chinese (Simplified), Russian, Japanese, Korean, German, Portuguese (Brazil), Spanish (LATAM).
 
 Fronex auto-detects your language from your Telegram settings. To switch manually, open **Profile → Language**.
 
-Languages we'll add after launch: Arabic, Indonesian, Vietnamese, Thai, Hindi, Turkish, French, Bangla, Italian, Polish, and others. Don't expect those at launch.
+Languages we'll add later: Arabic, Indonesian, Vietnamese, Thai, Hindi, Turkish, French, Bangla, Italian, Polish, and others. Don't expect those yet.
 
 ## Where Fronex works
 
