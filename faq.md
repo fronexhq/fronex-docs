@@ -150,7 +150,7 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with the market ID and your co
 ### How do I contact the team?
 
 * Email: [admin@fronex.xyz](mailto:admin@fronex.xyz)
-* Telegram channel: [t.me/fronex\_official](https://t.me/fronex_official)
+* Telegram channel: [t.me/fronex\_community](https://t.me/fronex_community)
 * X / Twitter: [@fronexhq](https://x.com/fronexhq)
 * Discord: [discord.gg/sA4HFvjjv](https://discord.gg/sA4HFvjjv)
 
