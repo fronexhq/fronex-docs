@@ -46,13 +46,13 @@ The indicative refreshes automatically — every 30 seconds for crypto, every mi
 
 ## Heavy-favorite warning
 
-When an outcome is priced at **5¢ or below** (very unlikely) or **95¢ or above** (near-certain), the market is asymmetric: $1 staked on the favorite pays just a few cents, while $1 on the underdog could pay $20+. Fronex shows a banner on these markets and reduces the quick-bet button amounts so you don't accidentally lock a large stake to win pennies. You can still type any amount manually.
+When an outcome is priced at **5¢ or below** (very unlikely) or **95¢ or above** (near-certain), the market is asymmetric: $1 staked on the favorite pays just a few cents, while $1 on the underdog could pay $20+. Fronex shows a banner on these markets and reduces the quick-amount button values so you don't accidentally lock a large stake to win pennies. You can still type any amount manually.
 
 ## How settlement works
 
 When the event ends, the market **resolves** based on data from one of our oracle providers:
 
-* **Soccer & tennis**: API-Football (primary), TheSportsDB (backup)
+* **Soccer**: API-Football (primary), TheSportsDB (backup)
 * **Crypto**: Binance (primary), CoinGecko (secondary), Pyth (tertiary fallback)
 * **Entertainment**: Spotify Charts and other public feeds
 * **Climate**: Open-Meteo (weather), NOAA NHC (hurricanes)

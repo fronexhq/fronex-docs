@@ -53,4 +53,4 @@ The Mini App opens to the **Home** tab. Five pillars are visible across the top:
 
 ⚽ **Soccer** · 💰 **Crypto** · 🎬 **Entertainment** · 🌦️ **Climate** · 🌐 **Community**
 
-Tap any pillar to see its live markets. Tap a market to see the order book, current odds, and the trade panel. We'll walk through that in [How predictions work](making-predictions/overview.md).
+Tap any pillar to see its live markets. Tap a market to see the order book, current prices, and the trade panel. We'll walk through that in [How predictions work](making-predictions/overview.md).

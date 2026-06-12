@@ -6,7 +6,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ## A
 
-**API-Football** — the data service we use to settle soccer (and tennis) markets from official match results.
+**API-Football** — the data service we use to settle soccer markets from official match results.
 
 ***
 
