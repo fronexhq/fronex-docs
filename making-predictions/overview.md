@@ -10,9 +10,9 @@ Every Fronex market has **two or three possible outcomes**:
 
 | Market type | Outcomes |
 |---|---|
-| **Two-way** (knockouts, crypto strikes, yes/no questions) | Team A · Team B |
+| **Two-way** (knockouts, crypto Up/Down, yes/no questions) | Team A · Team B |
 | **Three-way** (group-stage soccer, draw possible) | Team A · Draw · Team B |
-| **N-way** (top scorer, group winner, top performer of week) | One outcome per option |
+| **N-way** (top scorer, group winner) | One outcome per option |
 
 You **pick an outcome** and the market gives you a **price** — between 0.01 and 0.99 USDT. The price represents the market's current view of how likely that outcome is.
 
@@ -39,7 +39,7 @@ Alongside the order-book price, every market shows an **indicative price** — o
 The indicative comes from:
 
 * **Soccer**: bookmaker odds from API-Football, averaged across all books that quote the match and converted to a probability (after removing the bookmaker margin).
-* **Crypto strike markets** ("BTC closes above $X by date Y"): live spot price + a volatility model.
+* **Crypto Up/Down markets** ("does BTC close above the strike captured at open?"): live spot price + a volatility model.
 * **Other markets**: a tier-based default until enough trading produces a real price.
 
 The indicative refreshes automatically — every 30 seconds for crypto, every minute during live soccer matches, less often for slow-moving markets. If the order-book price drifts far from the indicative, that's a signal worth a second look: either the market has information the indicative doesn't, or the indicative is anchoring a stale view.
@@ -77,7 +77,7 @@ This isn't aesthetic — it's policy. Fronex is a prediction app for skill-based
 ## The five pillars
 
 * **[Soccer](soccer.md)** — the FIFA World Cup 2026 plus year-round leagues
-* **[Crypto](crypto.md)** — five assets, daily/weekly markets, plus the match-window feature
+* **[Crypto](crypto.md)** — BTC and TON weekly Up/Down markets
 * **[Entertainment](entertainment.md)** — music charts, awards, summer culture
 * **[Climate](climate.md)** — host-city weather, hurricanes
 * **[Community & custom](community.md)** — Market Owner-created markets

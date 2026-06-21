@@ -49,7 +49,7 @@ Top finishers in the Bracket Challenge and other tournaments are offered MO stat
 
 Community markets carry the highest fee multiplier of any pillar — **1.5×** the base trade fee (vs. 0.8× on Sports and 1.0× on Crypto). Out of every trade fee collected, **half (50%) goes to you, the MO**, as compensation for the work of creating and resolving the market. (The rest funds the maker rebate pool, the treasury, and the insurance pool.)
 
-Your MO share is credited in USDT to your Fronex wallet **on every trade, as it happens** — you don't wait for the market to resolve to start earning.
+Your MO share is credited in USDT to your Fronex balance **on every trade, as it happens** — you don't wait for the market to resolve to start earning.
 
 ## What you commit to as an MO
 

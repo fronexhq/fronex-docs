@@ -67,7 +67,7 @@ We use **predict**, **call it**, and **drop a prediction**. This isn't aesthetic
 
 ## What we will never do
 
-* Ask for the recovery phrase to your Fronex vault or any other wallet.
+* Ask for the recovery phrase to any wallet. Fronex is custodial — there's no Fronex seed phrase for you to hold in the first place — so anyone asking you for a recovery phrase "to secure your Fronex account" is a scammer.
 * Promise guaranteed returns or "AI prediction signals."
 * DM you first to offer "early access," "beta invites," or special deals. Fronex is open to everyone — there's nothing to unlock by DM, and we never cold-DM offers.
 * Run paid promotional campaigns through random influencers without disclosure.

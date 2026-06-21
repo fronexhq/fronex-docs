@@ -13,7 +13,7 @@ This guide is the user manual. If you're a Market Owner or just curious about ho
 ## What you'll find here
 
 * **[Getting started](getting-started.md)** — open the Mini App, pick your language, see the geo policy.
-* **[Your wallet](your-wallet.md)** — the personal vault we generate for you, deposits, withdrawals, self-custody.
+* **[Your wallet](your-wallet.md)** — the personal deposit address we generate for you, deposits, and withdrawals.
 * **[Making predictions](making-predictions/overview.md)** — how a prediction becomes a position, and how positions settle.
 * **[The Bracket Challenge](tournaments.md)** — the FIFA World Cup 2026 tournament: 32 picks, one bracket, real prizes.
 * **[Become a Market Owner](market-owners.md)** — propose your own markets, earn a share of the trade fees on them.

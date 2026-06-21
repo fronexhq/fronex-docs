@@ -28,11 +28,13 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Community / Custom (pillar)** — markets created by Market Owners rather than by the platform. They carry a slightly higher trade fee, and that extra goes to the Market Owner who creates and settles the market.
 
-**Crypto (pillar)** — markets on BTC, ETH, SOL, XRP, and TON. Includes the **Match-Window Crypto** feature.
+**Crypto (pillar)** — markets on BTC and TON only. These are simple **Up/Down** markets: does the price close above the strike (the live spot price captured when the market opens)? "Up" wins if it does. They run weekly on tournament Fridays, plus on FIFA World Cup 2026 Final day (July 19). No leverage, no perps — just a straight up-or-down call.
 
 ***
 
 ## D
+
+**Deposit address** — a TON address Fronex generates for you to receive USDT. When you send USDT to it, Fronex credits your account balance and moves the funds into its treasury. It's a way to fund your account — not a wallet you sign from or hold a recovery phrase for. To take money out, you withdraw to any TON wallet you control, and Fronex covers the network gas.
 
 **Drop a prediction** — submit a prediction. We use it instead of "place a bet."
 
@@ -48,11 +50,11 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **FIFA World Cup 2026** — the tournament we launch around: 48 teams, 12 groups, 104 matches, June 11 – July 19, 2026, hosted across the USA, Canada, and Mexico. We always write the full name.
 
+**Fronex balance** — your USDT balance on Fronex. It's held in Fronex's treasury (Fronex is custodial) and tracked in our ledger. Market stakes and payouts are settled against your balance automatically — you don't claim a prize, and winnings land in your balance the moment a market or tournament settles.
+
 **Fronex.bio** — our sister product: an AI marketing tool for crypto projects. Public SaaS launches September 2026.
 
 **Fronex.xyz** — our studio's public website, live since June 7, 2026.
-
-**FronexVault** — the on-chain contract Fronex uses for market bookkeeping on TON. Your USDT balance, market stakes, and payouts are tracked in Fronex's ledger and credited automatically — you don't claim a prize, and winnings land in your balance the moment a market or tournament settles.
 
 ***
 
@@ -78,7 +80,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Market Owner (MO)** — a user allowed to create Community markets, who earns a share of the trade fees on the markets they make.
 
-**Match-Window Crypto** — Fronex's cross-pillar feature. Every soccer match opens 3+ short crypto markets tied to that match's kickoff and full-time, settled from a live price snapshot within a minute of the final whistle.
+**Match-Window Crypto** — a cross-pillar feature that ties short crypto markets to a soccer match's kickoff and full-time. It's currently **paused** — it spawns no markets right now. The code is still there; we may switch it back on later.
 
 **Mini App** — the Fronex app itself. It runs entirely inside Telegram — there's no separate app to install.
 
@@ -86,7 +88,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ## O
 
-**Oracle** — a trusted data source we use to settle a market. We use API-Football and TheSportsDB (sports), Binance and CoinGecko (crypto), Spotify Charts (entertainment), and Open-Meteo and NOAA (weather).
+**Oracle** — a trusted data source we use to settle a market. We use API-Football and TheSportsDB (sports), Binance with CoinGecko and Pyth as backups (crypto), Spotify Charts (entertainment), and Open-Meteo and NOAA (weather).
 
 **Order book** — the live list of buy and sell orders on a market. On Fronex you predict against other people, not against the house, and the price moves as people trade.
 
@@ -97,8 +99,6 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 **Pillar** — one of Fronex's five market categories: Soccer, Crypto, Entertainment, Climate, Community/Custom.
 
 **Predict** — what you do on Fronex. We deliberately never say "bet."
-
-**Personal vault** — your own wallet on TON, created for you at signup. Your funds sit in your vault, not in a shared platform pool, and you can see them on any TON block explorer.
 
 ***
 
@@ -118,7 +118,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ## T
 
-**TON** — The Open Network, the blockchain Fronex runs on. **TON** is also the ticker of the network's own coin — one of the five crypto assets we track — and the network you send and receive USDT on. When the app shows an amount of that native coin you spend (network-fee gas) or lock (a Market Owner stake), it's labelled **Gram**: same coin, display name for amounts. See **Gram**.
+**TON** — The Open Network, the blockchain Fronex runs on. **TON** is also the ticker of the network's own coin — one of the two crypto assets we track (alongside BTC) — and the network you send and receive USDT on. When the app shows an amount of that native coin you spend (network-fee gas) or lock (a Market Owner stake), it's labelled **Gram**: same coin, display name for amounts. See **Gram**.
 
 **Token (closed-beta invite)** — the personal invite code that unlocked the app during the closed beta (now ended). No token is needed anymore — Fronex is open to everyone outside sanctioned regions.
 
@@ -134,7 +134,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ## V
 
-**Vault** — see **Personal vault**.
+**Vault** — an older name for your **Deposit address**. It's the TON address Fronex generates for you to receive USDT; it's not a wallet you sign from or hold a seed phrase for. See **Deposit address**.
 
 ***
 

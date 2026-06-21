@@ -65,7 +65,7 @@ Yes. Until the market locks (at the event's start time), you can predict in and 
 
 ### What happens to my position after the market locks?
 
-Once locked (e.g., at kickoff for a soccer match), no more trading. The market resolves automatically (or manually for community markets) when the event ends, and the payout hits your wallet within seconds or hours depending on the pillar.
+Once locked (e.g., at kickoff for a soccer match), no more trading. The market resolves automatically (or manually for community markets) when the event ends, and the payout is credited to your account balance within seconds or hours depending on the pillar.
 
 ### What if the oracle disagrees with itself?
 
@@ -125,19 +125,19 @@ Market Owners earn **50% of the trade fees** generated on their markets. The bas
 
 ### Who custodies my funds?
 
-**You do.** Fronex generates a personal on-chain vault for you on TON — a wallet only you control — and your deposited USDT lives there, not in a Fronex treasury. You can withdraw in-app to any TON wallet any time (the app sponsors the gas), or export your vault's recovery phrase and move the funds yourself. Fronex never holds your balance for you.
+**Fronex does — we're custodial, and we want to be honest about that.** When you deposit, your USDT lands at a personal deposit address we generate for you on TON, then moves into Fronex's treasury and is credited to your account balance. There's no per-user vault you sign from and no recovery phrase you hold for us. Your account balance is the real thing you own; you can withdraw it any time to any TON wallet you control, and Fronex sponsors the network gas.
 
 ### How do I know my balance is backed?
 
-**Because you hold it.** Your deposited USDT lives in your own on-chain vault on TON — a wallet you control with your recovery phrase and can verify on any TON explorer. Fronex settles markets off-chain for speed, but it never takes custody of your funds.
+We hold every user's USDT in a treasury pool and **continuously reconcile it**: the sum of all account balances must never exceed the USDT actually in the pool. Fronex is responsible for that solvency, and our withdrawal and payout checks fail closed if the pool can't cover what's owed. Your account security comes down to your Telegram account access — guard it like you would any wallet.
 
 ### What if the platform goes down?
 
-Your USDT is in your own on-chain vault, not on Fronex's servers, so a temporary outage can't touch it. While the app is down, pending positions may settle more slowly — but your funds stay in your vault, and you hold the recovery phrase.
+Your balance is a credit against Fronex's treasury, so a temporary outage doesn't change what you're owed — the ledger is the record. While the app is down, pending positions may settle more slowly and withdrawals pause until we're back, but the amount you can withdraw is unchanged when service resumes.
 
 ### What if there's a smart-contract bug?
 
-Our smart contracts are open-source, and we'll publish them on GitHub so anyone can read them. They've been reviewed but not formally audited at launch. Any bug we find is disclosed and either patched (for issues that don't affect funds) or covered from the insurance pool (for issues that do).
+Our smart contracts are open-source, and we'll publish them on GitHub so anyone can read them. They've been reviewed but not formally audited at launch. Any bug we find is disclosed and patched, and because funds are held in a continuously reconciled treasury pool — not locked in per-user contracts — a contract-level issue doesn't strand your balance.
 
 ### What if I disagree with a resolution?
 
@@ -158,6 +158,6 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with the market ID and your co
 
 Not right now. We may add one post-WC; if we do, it'll be opt-in and clearly disclosed. We're not running any third-party referral links.
 
-### When does public launch happen?
+### Is Fronex live yet?
 
-**June 7, 2026** — four days before the FIFA World Cup 2026 kickoff.
+**Yes — Fronex went public on June 7, 2026,** just before the FIFA World Cup 2026 kickoff, and it's live and open to everyone outside sanctioned jurisdictions right now.

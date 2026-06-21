@@ -1,19 +1,21 @@
 ---
-description: Your personal TON vault, deposits, withdrawals, and what self-custody means in practice.
+description: Your deposit address, your balance, deposits, withdrawals, and the honest version of how Fronex holds your funds.
 ---
 
 # Your wallet
 
-## Your personal vault (self-custody)
+## How Fronex holds your funds (the honest version)
 
-The first time you open the app, Fronex generates a **personal vault** for you on TON — an on-chain wallet that only you control. You deposit native **USDT on TON** to your vault's address, and the USDT held there is your balance. You self-custody: Fronex never holds your funds for you.
+Let's be straight about this, because it matters. **Fronex is custodial.** When you deposit, your USDT is held in Fronex's treasury and credited to your **account balance** — the number you see in the app. That balance is what you predict with, and it's yours to withdraw any time.
+
+The first time you open the app, Fronex generates a **personal deposit address** for you on TON. That address is just a doorway for receiving funds: you send native **USDT on TON** to it, and once the deposit lands it's credited to your balance. Behind the scenes Fronex sweeps deposits into a treasury pool that it controls — so the deposit address is a *receive-only address*, not a wallet you sign from and not one you hold a recovery phrase for.
 
 Two things matter about that:
 
-1. **You self-custody.** Your USDT lives in your own vault on TON — it is **not** pooled into a Fronex treasury wallet. You can export your vault's recovery phrase at any time and move your funds yourself, with or without the app.
-2. **Trading is instant; your funds stay on-chain.** While a market is live, Fronex matches and settles your predictions off-chain so the app feels instant — but the USDT that backs your balance stays in your own on-chain vault until you choose to move it.
+1. **Fronex holds custody, and is responsible for it.** Your USDT sits in Fronex's treasury, and your account balance is the authoritative record of what you're owed. Fronex continuously reconciles to make sure the pooled USDT always covers everyone's balances.
+2. **Trading is instant.** Predictions are matched and settled against your balance off-chain, so the app feels instant and markets can resolve the moment they're called — no on-chain transaction every time you make a move.
 
-You can withdraw any time to any TON wallet you control, and the app sponsors the network gas. Because predictions settle off-chain, markets can resolve instantly while they're live — and your USDT stays in your own vault the whole time.
+You can withdraw any time to any TON wallet you control, and Fronex sponsors the network gas. Withdrawals are signed and sent by Fronex from its pool straight to the address you give us.
 
 ## Funding your wallet
 
@@ -61,15 +63,15 @@ Withdrawals usually settle within about a minute. **Fronex charges no withdrawal
 * **Minimum withdrawal: 1 USDT** (a floor that keeps tiny transfers from costing more in gas than they're worth).
 * **Up to 5 withdrawals per rolling 24 hours** per account. There is no per-day USD cap and no cooldown on amounts — just this count limit, which applies at all times (it is not beta-only).
 
-## Withdrawing to your own wallet
+## Taking funds off the platform
 
-Your balance lives in your own personal vault, so you have **two ways** to take funds off the platform. The simplest is to **withdraw** in-app (Wallet → Withdraw) to any TON address you control, such as Tonkeeper or MyTonWallet — the app signs the USDT from your vault and sponsors the gas. You can also **export your vault's recovery phrase** from the app's wallet settings and move the USDT yourself from any TON wallet, with or without Fronex.
+To move your balance to a wallet you control, **withdraw** in-app (Wallet → Withdraw) to any TON address you own, such as Tonkeeper or MyTonWallet. Fronex signs and sends the USDT from its pool and sponsors the gas, so the full amount you request lands in your wallet. There is no recovery phrase for you to export and no separate "move it yourself" path — withdrawing in-app is how you take funds out.
 
-Because you self-custody, the security of your funds rests on two things: your Telegram account access **and** your recovery phrase. Anyone who has your recovery phrase can move your USDT — keep it offline and never share it with anyone, including people claiming to be Fronex.
+Because Fronex is custodial, the security of your funds rests on **your Telegram account access** — that's how you get into the app and authorise withdrawals. Keep your Telegram account secure (a strong password and two-factor authentication), and never hand control of it to anyone, including people claiming to be Fronex.
 
 ## What we never ask for
 
-* A recovery phrase or seed phrase of any kind — Fronex never asks for one, ever
+* A recovery phrase or seed phrase for **any** wallet — Fronex never asks for one, ever (and there is no Fronex recovery phrase to give out)
 * Your Telegram password or 2FA codes
 * A withdrawal "fee" paid to an outside address, or any payment to "unlock," "verify," or "release" your balance
 

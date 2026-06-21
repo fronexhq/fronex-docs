@@ -22,8 +22,8 @@ Markets on **the FIFA World Cup 2026 opening ceremony performer lineup** and **c
 
 ### Summer album debuts
 
-* **Album X debuts at #1 on Billboard 200?** — yes/no
-* **First-week sales over Y units?** — bucketed
+* **Album X tops the Spotify global chart in its debut week?** — yes/no
+* **Album X charts in the Spotify Top 50 by date Y?** — yes/no
 
 ### Box-office and streaming markets
 
@@ -31,7 +31,7 @@ Selective markets on **summer 2026 box-office releases** and **major streaming l
 
 ## Resolution
 
-* **Music**: Spotify Charts (free public feed), Billboard for album-debut markets where available
+* **Music**: Spotify Charts (free public feed)
 * **Other public culture data**: source noted on each market's resolution page
 
 Entertainment markets are **semi-manual** — an oracle pulls the data, but a human confirms the resolution before payout. This is why entertainment markets sit in a higher creation fee tier than crypto/sports (the semi-manual pillars cost more to list) and settle slightly slower (typically 24 hours from event close).

@@ -13,7 +13,7 @@ When you take an order (predict in or out of a market), a small percentage fee i
 | Pillar | Trade fee multiplier | Notes |
 |---|---|---|
 | Soccer | 0.8× | Auto-resolved via API-Football |
-| Crypto | 1.0× (baseline) | Auto-resolved via Binance + CoinGecko |
+| Crypto | 1.0× (baseline) | BTC & TON "Up/Down" only; settled manually at expiry against Binance / CoinGecko / Pyth |
 | Entertainment | 1.2× | Semi-manual resolution |
 | Climate | 1.2× | Auto-resolved via Open-Meteo / NOAA |
 | **Community / Custom** | **1.5×** | Manual MO resolution |
@@ -36,7 +36,7 @@ Creating a market — whether as the platform or as a Market Owner — costs a f
 | Pillar | Creation fee | Why |
 |---|---|---|
 | Soccer | $5 | Oracle-fed, minimal manual work |
-| Crypto | $5 | Oracle-fed, minimal manual work |
+| Crypto | $5 | BTC & TON "Up/Down" markets, settled manually at expiry |
 | Entertainment | $15 | Semi-manual, verified against public sources |
 | Climate | $15 | Oracle-fed, but stricter parameters |
 | Community / Custom (Pillar 5) | $25 | Manual MO resolution |
@@ -63,7 +63,7 @@ Payouts settle to your Fronex balance as USDT. From there, you can withdraw to a
 
 ## What about the platform's wallet?
 
-Your funds live in **your own personal vault** ([Your wallet](your-wallet.md)) — never in a shared platform pool. Fronex keeps its own separate operating wallets to pay out settlements quickly, but those never hold your balance and you never touch them.
+Fronex is **custodial**. When you deposit, your USDT is held in Fronex's treasury and credited to your account balance ([Your wallet](your-wallet.md)). The honest version: your money sits in a pooled Fronex treasury, not a personal on-chain vault you sign from — Fronex holds it and is responsible for staying solvent (we continuously reconcile so the total of everyone's balances never exceeds the USDT we actually hold). You can withdraw to any TON wallet you control at any time, and Fronex sponsors the network gas to send it.
 
 ## Refunds
 

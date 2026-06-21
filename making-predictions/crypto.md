@@ -1,83 +1,57 @@
 ---
-description: Five assets, daily and weekly markets, plus the Match-Window Crypto cross-pillar feature.
+description: BTC and TON, weekly Up/Down markets on tournament Fridays and the World Cup Final day.
 ---
 
 # Crypto markets
 
-## The five assets
+## The two assets
 
-Fronex tracks five crypto assets at launch:
+Fronex keeps crypto simple. We track two assets:
 
 * **BTC** — Bitcoin
-* **ETH** — Ethereum
-* **SOL** — Solana
-* **XRP** — Ripple
 * **TON** — the asset our chain runs on
 
-Crypto is one of Fronex's most active pillars.
+That's it. No ETH, no SOL, no XRP. The honest version: crypto isn't the main event here — the World Cup is. Crypto is a small, focused side pillar, not a 24/7 trading desk.
 
-## Market types
+## How crypto markets work: Up or Down
 
-### Daily close-strike
+There's just one market type, and it's about as simple as it gets.
 
-Will the asset close above or below a target price at end-of-day UTC?
+Each market asks one question: **will the price close above where it started?** When the market opens, we capture the live spot price — that's the **strike**. At expiry, we check the closing price against that strike.
 
-> **BTC ≥ $70,000 by 23:59 UTC**
-> Yes · No
+* **Up** wins if it closes strictly *above* the strike.
+* **Down** wins if it closes at or below the strike.
 
-### Weekly close-strike
+> **BTC — Up or Down this week?**
+> Strike: $68,420 (captured at open)
+> Up · Down
 
-Same format, weekly horizon. Closes Sunday 23:59 UTC.
+That's the whole format. No buckets, no multi-way "which asset wins," no pair comparisons — just a clean call on direction.
 
-### Top performer of the week
+## When these markets run
 
-Multi-outcome (5-way): which of BTC, ETH, SOL, XRP, TON has the highest 7-day return?
+Crypto markets aren't running all the time. The full set is about a dozen markets:
 
-### Pair outperform
+* **BTC and TON weekly Up/Down markets on the tournament's Fridays.**
+* **BTC and TON Up/Down markets on FIFA World Cup 2026 Final day** (Sunday, July 19, 2026).
 
-Two-way: does asset A outperform asset B over a given window?
+So crypto shows up on a handful of dates — it's a side prediction for the duration of the tournament, not an always-on feed.
 
-> **TON outperforms ETH over the next 7 days?**
-> Yes · No
-
-### FIFA World Cup 2026 final price marquees
-
-Marquee markets for the duration of the FIFA World Cup 2026:
-
-* **BTC price on the day of the World Cup Final** — multi-outcome bucketed
-* **TON price on the day of the World Cup Final** — multi-outcome bucketed
-
-## The Match-Window Crypto feature
-
-This is Fronex's cross-pillar differentiator and a marquee feature for the FIFA World Cup 2026:
-
-**Every soccer match auto-spawns 3 or more linked crypto markets** keyed to the match's kickoff and full-time. These markets:
-
-* Open when the match opens
-* Close when the match ends
-* Resolve from a **Binance price snapshot at full-time**, cross-checked against CoinGecko, within 60 seconds of the final whistle
-
-Example for **Brazil vs Argentina, kickoff 21:00 UTC**:
-
-* "BTC ↑ during the match?" — yes/no
-* "TON outperforms ETH for the next 2 hours?" — yes/no
-* "BTC moves > 0.5% (either direction) during the match?" — yes/no
-
-The result: a 90-minute soccer match generates ~3 short, sharp crypto markets you can predict alongside the match itself. You don't need to pick between watching the game and trading — you do both.
+{% hint style="info" %}
+**Match-Window Crypto is currently paused.** We built a feature that auto-spawns short crypto markets keyed to a soccer match's kickoff and full-time. It isn't running right now — it spawns zero markets at the moment. If and when we switch it back on, we'll update this page. For now, crypto is just the weekly and Final-day Up/Down markets above.
+{% endhint %}
 
 ## Resolution
 
 * **Primary source**: Binance
 * **Secondary check**: CoinGecko
-* **Backup**: Pyth (used only if Binance is unavailable and CoinGecko disagrees)
+* **Backup**: Pyth (tertiary fallback, used only if Binance is unavailable and CoinGecko disagrees)
 
-If the primary and secondary prices disagree by more than a small margin, the market pauses and we settle it manually within 24 hours.
-
-For match-window markets, the price is captured **within 60 seconds of full-time**. We keep both the Binance and CoinGecko readings on record so any settlement can be checked later.
+Up/Down markets are **settled manually at expiry**. We capture the closing price, compare it to the strike, and pay out. We keep the Binance and CoinGecko readings on record so any settlement can be checked later. If the sources disagree by more than a small margin, we hold and reconcile before settling.
 
 ## Pricing
 
-Crypto strike markets ("BTC closes above $X by date Y") show an **indicative price** computed from live spot + a volatility model — refreshed every 30 seconds. It's a fair-value anchor; the order-book price is what you actually trade. See [How predictions work § The indicative price](overview.md#the-indicative-price).
+Crypto Up/Down markets show an **indicative price** computed from live spot + a log-normal volatility model — refreshed roughly every 30 seconds. It's a fair-value anchor; the order-book price is what you actually trade. See [How predictions work § The indicative price](overview.md#the-indicative-price).
 
 ## In the app
 
@@ -85,4 +59,4 @@ Crypto markets show up in **orange**.
 
 ## What you'll never see in crypto markets
 
-No leveraged products. No perpetuals. No "long" or "short" framing. Fronex crypto markets are **binary or N-way prediction markets** — you call the direction and the outcome resolves yes/no. There is no liquidation, no funding rate, no leverage multiplier.
+No leveraged products. No perpetuals. No "long" or "short" framing. Fronex crypto markets are **simple binary prediction markets** — you call the direction (Up or Down) and the outcome resolves one way or the other. There is no liquidation, no funding rate, no leverage multiplier.
