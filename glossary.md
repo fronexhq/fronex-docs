@@ -90,7 +90,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Oracle** — a trusted data source we use to settle a market. We use API-Football and TheSportsDB (sports), Binance with CoinGecko and Pyth as backups (crypto), Spotify Charts (entertainment), and Open-Meteo and NOAA (weather).
 
-**Order book** — the live list of buy and sell orders on a market. On Fronex you predict against other people, not against the house, and the price moves as people trade.
+**Order book** — the live list of buy and sell orders on a market. On Fronex your counterparty can be another player or Fronex's own liquidity (which seeds new markets so they're never empty), and the price moves as orders trade.
 
 ***
 

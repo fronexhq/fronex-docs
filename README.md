@@ -6,7 +6,7 @@ description: Social prediction gaming on TON, built for Telegram. Five pillars, 
 
 Fronex is a social prediction app you open inside Telegram. You call what happens next — in soccer, crypto, entertainment, climate, or community-created markets — and earn USDT when you're right.
 
-You fund your account with USDT on TON, and your balance pays out in USDT on TON. Every market is hand-picked or community-curated. There is no house: you're predicting against other people, and the platform earns only a small fee on each trade.
+You fund your account with USDT on TON, and your balance pays out in USDT on TON. Every market is hand-picked or community-curated. You predict on an open order book — your counterparty is whoever's on the other side, whether that's another player or Fronex's own liquidity that seeds new markets so they're never empty. The platform earns a small fee on each trade.
 
 This guide is the user manual. If you're a Market Owner or just curious about how the app works under the hood, start here.
 
