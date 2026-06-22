@@ -16,12 +16,16 @@ Every Fronex market has **two or three possible outcomes**:
 
 You **pick an outcome** and the market gives you a **price** — between 0.01 and 0.99 USDT. The price represents the market's current view of how likely that outcome is.
 
+<figure><img src="../images/app/component-market-card.webp" alt="A market card in the feed showing the two teams, the split bar, and the outcome buttons" width="340"><figcaption>A market card in the feed — each card is a question, with the price built into every outcome.</figcaption></figure>
+
 Example:
 
 > **Brazil vs Argentina — group stage**
 > Brazil **0.42** · Draw **0.28** · Argentina **0.30**
 
 Buying Brazil at 0.42 USDT means: if Brazil wins, you receive 1.00 USDT per share. Your profit is 0.58 USDT per share. If Brazil doesn't win, your shares settle to zero.
+
+<figure><img src="../images/app/market-detail.webp" alt="A Fronex market page showing the live score, the price-history chart, and the outcome options" width="300"><figcaption>A market page — live score, the price-history chart, and the outcomes you can predict.</figcaption></figure>
 
 ## Buying and selling
 

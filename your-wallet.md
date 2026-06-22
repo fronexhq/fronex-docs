@@ -17,9 +17,13 @@ Two things matter about that:
 
 You can withdraw any time to any TON wallet you control, and Fronex sponsors the network gas. Withdrawals are signed and sent by Fronex from its pool straight to the address you give us.
 
+<figure><img src="images/app/portfolio.webp" alt="The Fronex Portfolio tab showing total value, balance, and open predictions" width="300"><figcaption>Your Portfolio — total value, available balance, and open predictions, all settled against your account balance.</figcaption></figure>
+
 ## Funding your wallet
 
 Open the Mini App, tap the wallet icon (top-right), then **Deposit**. Funding is **native USDT on TON only** — there is no card, on-ramp, bridge, or cross-chain swap. There are exactly two ways to fund your account, and both deliver **USDT on TON** to your deposit address.
+
+<figure><img src="images/app/deposit.webp" alt="The Fronex Deposit screen — connect a TON wallet or send to your deposit address" width="300"><figcaption>The Deposit screen — connect a TON wallet for a one-tap deposit, or send USDT on TON to your address.</figcaption></figure>
 
 ### Option 1 — Connect your TON wallet (one tap)
 
@@ -57,6 +61,8 @@ To withdraw USDT to an external wallet:
 4. Confirm.
 
 Withdrawals usually settle within about a minute. **Fronex charges no withdrawal fee** — the exact amount you request is sent. The only cost is the TON network gas for the on-chain transfer, and **Fronex sponsors that gas** — it is not deducted from your balance.
+
+<figure><img src="images/app/withdraw.webp" alt="The Fronex Withdraw screen — destination TON address and amount" width="300"><figcaption>The Withdraw screen — paste any TON address you control, enter the amount, and confirm.</figcaption></figure>
 
 ### Minimum and limits
 

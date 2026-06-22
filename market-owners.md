@@ -23,6 +23,8 @@ Market Owners (MOs) are the users who **create the Community pillar's markets**.
 7. Predictors trade your market. You earn a share of every trade.
 8. When the event resolves, you log in and mark the outcome. The platform verifies against your stated source, then pays out.
 
+<figure><img src="images/app/create.webp" alt="The Create screen where Market Owners build a new market" width="300"><figcaption>The Create screen — pick a template or start from scratch, set the outcomes and resolution rule, then submit for clarity review.</figcaption></figure>
+
 ## Becoming a Market Owner
 
 Three paths:

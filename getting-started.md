@@ -53,4 +53,6 @@ The Mini App opens to the **Home** tab. Five pillars are visible across the top:
 
 ⚽ **Soccer** · 💰 **Crypto** · 🎬 **Entertainment** · 🌦️ **Climate** · 🌐 **Community**
 
+<figure><img src="images/app/markets.webp" alt="The Fronex Home tab showing the Trending feed, pillar row, and a featured live match" width="300"><figcaption>The Home tab — the Trending feed, the five pillars across the top, and the day's featured match.</figcaption></figure>
+
 Tap any pillar to see its live markets. Tap a market to see the order book, current prices, and the trade panel. We'll walk through that in [How predictions work](making-predictions/overview.md).

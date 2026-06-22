@@ -14,6 +14,8 @@ Bring friends to Fronex and earn **10% of the trading fees they generate** — p
 
 Your Profile shows your running totals: **Invited** (people who joined through your link), **Active** (those who've started trading), **Earned** (paid out so far), and **Pending** (accrued, not yet paid).
 
+<figure><img src="images/app/component-referral.webp" alt="The Invite friends card in Fronex showing the 10% reward, invited/active/earned/pending stats, and the share link button" width="340"><figcaption>The Invite friends card on your Profile — your reward rate, your stats, and the share link.</figcaption></figure>
+
 ## Where the reward comes from
 
 Your reward is paid out of **Fronex's own share** of the trade fee — the platform treasury — **not** out of your friend's money.

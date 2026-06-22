@@ -15,6 +15,8 @@ The Bracket Challenge runs over the FIFA World Cup 2026 (which begins June 11, 2
 
 Total picks across both rounds: **32**. The Mini App walks you through it screen by screen.
 
+<figure><img src="images/app/bracket.webp" alt="The Bracket Challenge screen in the Fronex Mini App" width="300"><figcaption>The Bracket Challenge — two rounds, 32 picks, real USDT prizes, all inside the app.</figcaption></figure>
+
 ## Entry fee and prize pool
 
 * **Entry fee**: Round 1 is free; Round 2 is **$1 USDT** (shown in the Mini App at signup).
