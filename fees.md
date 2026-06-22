@@ -25,9 +25,15 @@ On top of this, **one pillar rotates to zero fee each week** (every Monday UTC),
 The trade fee is split four ways:
 
 1. **Market Owner share — 50%.** The Market Owner who created the market earns half of every trade fee on it.
-2. **Rebate pool — 30%.** Paid out daily, pro-rata, to the real makers who provided the liquidity you traded against.
-3. **Treasury — 15%.** The platform's operating account.
+2. **Rebate pool — 20%.** Paid out daily, pro-rata, to the real makers who provided the liquidity you traded against.
+3. **Treasury — 25%.** The platform's operating account, which also funds the referral reward (see below).
 4. **Insurance pool — 5%.** Held back to cover disputed resolutions and reversed-oracle refunds.
+
+This split is the same for everyone — there's no hidden surcharge on referred users.
+
+## Inviting friends
+
+If a friend joins through your invite link, you earn **10% of the trading fees they generate** — paid in USDT straight to your Fronex balance. It comes out of **Fronex's own treasury share**, never out of your friend's money: they pay the exact same fees as everyone else, and you're never charged to invite. Full details in [Invite friends & earn](referrals.md).
 
 ## Market creation fees
 

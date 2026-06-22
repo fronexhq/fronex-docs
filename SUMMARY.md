@@ -26,6 +26,10 @@
 
 * [Become a Market Owner](market-owners.md)
 
+## Invite & earn
+
+* [Invite friends & earn](referrals.md)
+
 ## Reference
 
 * [Fees & payouts](fees.md)

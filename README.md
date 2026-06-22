@@ -23,6 +23,6 @@ This guide is the user manual. If you're a Market Owner or just curious about ho
 
 ## The honest version
 
-Fronex is a small, founder-built product, live for the FIFA World Cup 2026 — public launch shipped June 7, 2026. It's open to everyone outside sanctioned regions; no invite needed.
+Fronex is a small, founder-built product, live for the FIFA World Cup 2026 — public launch shipped June 2026. It's open to everyone outside sanctioned regions; no invite needed.
 
 You will run into rough edges. When you do, tell us: **admin@fronex.xyz** or **[t.me/fronexhq](https://t.me/fronexhq)**.

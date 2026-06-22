@@ -156,7 +156,7 @@ Email [admin@fronex.xyz](mailto:admin@fronex.xyz) with the market ID and your co
 
 ### Is there a referral program?
 
-Not right now. We may add one post-WC; if we do, it'll be opt-in and clearly disclosed. We're not running any third-party referral links.
+Yes. Invite a friend with your link (from your **Profile**) and you earn **10% of the trading fees they generate**, paid in USDT to your balance — your friend pays nothing extra, and it comes out of Fronex's own fee share, not their money. Payouts land automatically once you've earned $10 or every 15 days. Full details in [Invite friends & earn](referrals.md). We're not running any third-party referral links — only your in-app invite link counts.
 
 ### Is Fronex live yet?
 
