@@ -54,7 +54,7 @@ The exact fee is shown in the Mini App's Create flow before you commit.
 * **No deposit fee.** Only the TON network gas applies, paid by your own wallet when you send the deposit, not by Fronex. The minimum deposit is **0.01 USDT**.
 * **No platform withdrawal fee, and no withdrawal gas charged to you.** Fronex sponsors the TON gas for your withdrawal — it is never deducted from your USDT balance. The minimum withdrawal is **1 USDT**.
 * **No idle-balance fee.** Holding USDT in your Fronex wallet costs nothing.
-* **No fee on the Bracket Challenge entry** beyond the stated entry fee. Round 1 is free; Round 2 is **$1 USDT**. Entry fees are 100% pooled, minus a **5% platform cut** declared on the entry screen.
+* **No extra fee on a League beyond its stated entry.** Free leagues cost nothing to join. **Paid pools** charge only the entry fee shown on the join screen — and **100% of entry fees go into the prize pool** (Fronex takes no platform cut on Leagues).
 
 ## Payouts
 
@@ -63,7 +63,7 @@ Payouts are credited **automatically** to your Fronex balance **at settlement** 
 * **Auto-resolved markets**: shortly after the event ends, once the oracle result is in.
 * **Semi-manual markets** (Entertainment): within 24 hours.
 * **Community/Custom markets**: within 24 hours of the Market Owner setting the outcome.
-* **Bracket Challenge**: prizes are credited automatically once the tournament's end time passes and settlement runs — winnings are pushed straight to your balance, with no claim window.
+* **Leagues**: prizes are credited automatically once the league's end time passes and settlement runs — winnings are pushed straight to your balance, with no claim window.
 
 Payouts settle to your Fronex balance as USDT. From there, you can withdraw to any external TON wallet.
 

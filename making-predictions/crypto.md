@@ -1,5 +1,5 @@
 ---
-description: BTC and TON, weekly Up/Down markets on tournament Fridays and the World Cup Final day.
+description: BTC and TON, weekly Up/Down markets on tournament Fridays and the FIFA World Cup 2026 Final day.
 ---
 
 # Crypto markets
@@ -11,7 +11,7 @@ Fronex keeps crypto simple. We track two assets:
 * **BTC** — Bitcoin
 * **TON** — the asset our chain runs on
 
-That's it. No ETH, no SOL, no XRP. The honest version: crypto isn't the main event here — the World Cup is. Crypto is a small, focused side pillar, not a 24/7 trading desk.
+That's it. No ETH, no SOL, no XRP. The honest version: crypto isn't the main event here — the FIFA World Cup 2026 is. Crypto is a small, focused side pillar, not a 24/7 trading desk.
 
 ## How crypto markets work: Up or Down
 

@@ -12,7 +12,7 @@ The entertainment pillar tracks **public, verifiable culture markets** with a so
 
 * **Will track X enter the Spotify Top 50 by date Y?**
 * **Will artist A overtake artist B on the global chart this week?**
-* **Which artist holds #1 on July 19, 2026?** (World Cup Final day, multi-outcome)
+* **Which artist holds #1 on July 19, 2026?** (FIFA World Cup 2026 Final day, multi-outcome)
 
 Spotify data comes from the public Spotify Charts feed — free, daily-refresh, oracle-friendly.
 

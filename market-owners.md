@@ -45,7 +45,7 @@ Predictors who trade actively, profitably, and across multiple pillars auto-qual
 
 ### 3. **Tournament finalist**
 
-Top finishers in the Bracket Challenge and other tournaments are offered MO status as part of their prize.
+Top finishers in Leagues and other tournaments are offered MO status as part of their prize.
 
 ## What an MO earns
 

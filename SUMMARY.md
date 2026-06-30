@@ -20,7 +20,7 @@
 
 ## Tournaments
 
-* [The Bracket Challenge](tournaments.md)
+* [Leagues](tournaments.md)
 
 ## For Market Owners
 

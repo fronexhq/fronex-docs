@@ -1,56 +1,50 @@
 ---
-description: The Bracket Challenge — Fronex's marquee tournament for the FIFA World Cup 2026.
+description: Leagues — Fronex's tournaments for the FIFA World Cup 2026 and beyond.
 ---
 
-# The Bracket Challenge
+# Leagues
 
-The Bracket Challenge is Fronex's flagship tournament. Two rounds, 32 picks, real USDT prizes — and it runs inside the app rather than on the blockchain, so there are no per-pick network fees.
+A **League** is a Fronex tournament: a set of markets, one pick per market, a live leaderboard, and — in paid pools — real USDT prizes. Leagues run **inside the app** rather than on the blockchain, so there are no per-pick network fees and the standings update in real time.
 
-## What it is
+> Leagues grew out of the original **Bracket Challenge**. Instead of one platform-run bracket, anyone can now spin up a league over the markets they care about — FIFA World Cup 2026 knockout rounds, a single match-day, a friendly group — and invite people to play.
 
-The Bracket Challenge runs over the FIFA World Cup 2026 (which begins June 11, 2026) in two rounds:
+<figure><img src="images/app/bracket.webp" alt="The Leagues screen in the Fronex Mini App" width="300"><figcaption>Leagues — pick across a set of markets, climb the live leaderboard, win bragging rights or a real USDT prize pool.</figcaption></figure>
 
-1. **Round 1 — Group stage** — 16 group-stage picks, each a 3-way outcome. Round 1 is **free to enter**.
-2. **Round 2 — Knockout (Round of 32)** — 16 binary knockout picks. Round 2 has a **$1 USDT** entry fee.
+## Create or join a league
 
-Total picks across both rounds: **32**. The Mini App walks you through it screen by screen.
+Open **Leagues** from the bottom nav, then either:
 
-<figure><img src="images/app/bracket.webp" alt="The Bracket Challenge screen in the Fronex Mini App" width="300"><figcaption>The Bracket Challenge — two rounds, 32 picks, real USDT prizes, all inside the app.</figcaption></figure>
+* **Create a league.** Give it a name, pick the markets it runs on, set whether it's public or invite-only, and choose an end date. Free, bragging-rights leagues are open to everyone.
+* **Join a league.** Browse public leagues under **Discover**, join one from your community, or open a private **invite link** someone shared with you.
 
-## Entry fee and prize pool
+**Paid prize pools** (leagues with an entry fee) are currently limited to Fronex and approved organizers, so the prize money behind a pool is always backed. Anyone can create and join **free** leagues.
 
-* **Entry fee**: Round 1 is free; Round 2 is **$1 USDT** (shown in the Mini App at signup).
-* **Prize pool**: 100% of entry fees, minus a 5% platform fee, plus a seed contribution from Fronex.
-* **Refund condition**: if a tournament has fewer than the minimum number of players, it is cancelled and each player's entry fee is refunded to their balance.
+## How a league works
+
+A league is built on a set of **backing markets** — for example, the 16 FIFA World Cup 2026 **Round of 32** matches. For each backing market you make **one pick**.
+
+* Each pick **locks at its match's kickoff**. Until then you can revisit and change it; once the match starts, that pick is read-only.
+* You can keep editing your other, not-yet-started picks right up to each of their kickoffs.
 
 ## Scoring
 
-Each pick is scored as the matches it's based on resolve:
+Each pick is scored as its backing market resolves:
 
 * A **correct** pick earns points.
 * A **wrong** pick loses a smaller number of points.
-* If a backing match is cancelled or voided, that pick scores **0** (it doesn't count for or against you).
+* If a backing market is cancelled or voided, that pick scores **0** — it doesn't count for or against you.
 
-Your score climbs (or dips) match by match. You don't need a perfect bracket to win — the highest total among the entries takes the top prize, and runners-up share a graded payout.
+Your score climbs (or dips) match by match on a **live leaderboard**. You don't need a perfect card to do well — finishing in the **top 30%** earns a badge, and the highest totals take the prizes in a paid pool.
 
-## Settlement
+## Prizes and settlement
 
-The tournament runs inside the app, not on the blockchain — that keeps entry costs low and lets the leaderboard update in real time. Prizes are settled the same way: when the tournament resolves (after the FIFA World Cup 2026 Final on July 19, 2026), Fronex scores and ranks all entries and **credits each winner's USDT balance automatically**.
+* **Free leagues** play for the leaderboard and bragging rights — no entry fee, no prize money.
+* **Paid pools** pay out real USDT: the prize pool is **100% of entry fees** (Fronex takes no cut on Leagues), plus any seed the organizer adds. It's split among the top finishers on a graded payout.
 
-There's nothing to claim and no deadline — winnings land in your balance as soon as settlement runs, and you can withdraw them to your TON wallet whenever you like.
+Settlement runs **inside the app**, the same way trading does: when the league ends, Fronex scores and ranks every entry and **credits each winner's USDT balance automatically**. There's nothing to claim and no deadline — winnings land in your balance as soon as settlement runs, and you can withdraw them to your TON wallet whenever you like.
 
-## Editing your bracket
+If a paid pool doesn't reach its minimum number of players, it's **cancelled and every entry fee is refunded** to the player's balance.
 
-Each pick locks at **its match's kickoff**. Until a match kicks off you can revisit and edit that pick; once it kicks off, that pick is read-only.
+## Built to run again
 
-You can keep editing your other, not-yet-started picks right up to each of their kickoffs. After a pick locks you can watch its score climb (or fall) match by match, but you cannot change it.
-
-## Tournament template, not one-off
-
-The Bracket Challenge is the first tournament built on Fronex's reusable tournament infrastructure. After the FIFA World Cup 2026 we'll run:
-
-* Premier League season-long brackets
-* Champions League knockout brackets
-* Other public knockout-format tournaments
-
-The infrastructure is the same; only the source event changes.
+Leagues run on reusable tournament infrastructure — only the source event changes. The FIFA World Cup 2026 knockout rounds are the headline today; after the tournament the same engine carries league competitions such as the Premier League season and Champions League knockouts.

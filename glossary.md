@@ -14,7 +14,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Best-3rd race** — at the FIFA World Cup 2026, 8 of the 12 third-placed group teams advance to the Round of 32. The "best-3rd race" is the set of markets predicting which 8.
 
-**Bracket Challenge** — Fronex's flagship tournament: one entry, a full set of FIFA World Cup 2026 picks, real USDT prizes.
+**Bracket Challenge** — the original FIFA World Cup 2026 tournament, since reworked into **Leagues**: instead of one platform-run bracket, anyone can create or join a league over a set of markets. See **Leagues**.
 
 ***
 
@@ -76,6 +76,12 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 ***
 
+## L
+
+**League** — a Fronex tournament: a set of backing markets, one pick per market, and a live leaderboard. Anyone can create a free, bragging-rights league or join a public or invite-only one; **paid pools** (entry fee + real USDT prizes) are currently limited to Fronex and approved organizers. Finish in the top 30% for a badge. See **Tournaments**.
+
+***
+
 ## M
 
 **Market Owner (MO)** — a user allowed to create Community markets, who earns a share of the trade fees on the markets they make.
@@ -122,7 +128,7 @@ description: Plain-language definitions of the terms you'll meet in Fronex — a
 
 **Token (closed-beta invite)** — the personal invite code that unlocked the app during the closed beta (now ended). No token is needed anymore — Fronex is open to everyone outside sanctioned regions.
 
-**Tournaments** — multi-market events with their own entry fee and prize pool. The Bracket Challenge is the first; more come after the World Cup.
+**Tournaments** — multi-market events with a live leaderboard, run inside the app as **Leagues**: a set of backing markets, one pick each. Free leagues play for bragging rights; paid pools add an entry fee and a real USDT prize pool. See **Leagues**.
 
 ***
 

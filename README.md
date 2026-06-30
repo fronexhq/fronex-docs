@@ -15,7 +15,7 @@ This guide is the user manual. If you're a Market Owner or just curious about ho
 * **[Getting started](getting-started.md)** — open the Mini App, pick your language, see the geo policy.
 * **[Your wallet](your-wallet.md)** — the personal deposit address we generate for you, deposits, and withdrawals.
 * **[Making predictions](making-predictions/overview.md)** — how a prediction becomes a position, and how positions settle.
-* **[The Bracket Challenge](tournaments.md)** — the FIFA World Cup 2026 tournament: 32 picks, one bracket, real prizes.
+* **[Leagues](tournaments.md)** — create or join a tournament over a set of markets: free bragging-rights leagues for everyone, paid pools with real USDT prizes.
 * **[Become a Market Owner](market-owners.md)** — propose your own markets, earn a share of the trade fees on them.
 * **[Fees & payouts](fees.md)** — what we charge, when you get paid.
 * **[Safety & policy](safety.md)** — sanctions block, age policy, responsible prediction.
