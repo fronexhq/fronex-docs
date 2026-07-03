@@ -19,6 +19,17 @@ Open **Leagues** from the bottom nav, then either:
 
 **Paid prize pools** (leagues with an entry fee) are currently limited to Fronex and approved organizers, so the prize money behind a pool is always backed. Anyone can create and join **free** leagues.
 
+## Invite people to your league
+
+Once your league exists, open its page and tap **Share** to bring in players. Everything keeps people **inside Telegram** — every invite is a `t.me` link that opens your league straight in the Mini App, so there's no website to visit first:
+
+* **Copy link** — a one-tap invite link to drop into any chat.
+* **QR code** — scannable on screen and **downloadable** to print for a watch party, hostel, café, or poster. Scanned outside Telegram, it still opens the app.
+* **Share to Telegram** — pick a chat or group from the native share sheet.
+* **Share to X** — post the invite as a tweet.
+
+For an **invite-only** league, the link carries your invite code, so whoever opens it can join without hunting for a code. Anyone already in the league can share it — pass it around to fill your leaderboard.
+
 ## How a league works
 
 A league is built on a set of **backing markets** — for example, the 16 FIFA World Cup 2026 **Round of 32** matches. For each backing market you make **one pick**.
